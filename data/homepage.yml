@@ -1,21 +1,25 @@
 # Main Title
 main:
   header:
-    title : "Graysx Theme" # Title Text
-    description : "Aut Deleniti Solu Facilis Idlau imq Atque Ac Itaqu A Co Volup Nu Quaecu Nec Archite At." # Title Desc
+    title : "A.C. Hagelandse Off-Road Parels" # Title Text
+    description : "26-06-2024" # Title Desc
     button:
-      text: "Learn More" # Button Text
-      url: "#about" # Button URL
+      text: "Welkom" # Button Text
+      url: "#welkom" # Button URL
 
 # About
 about:
-  title: "About us"
-  desc: "Max Ducim Qua Labo Pa Adre Nam Ased Di Ullam Ess Num Minim Quorecu Re Iur Ipsam Autemo Autem Max Iurer Ut Enim Praese Ips Fugia Ne Dig Assumen Cul Ipsum Velit Magna Inl Odio Enimodi Nonve Sunti Tem Incidu Velqui Lauda Assume Volupt Nih Es Autem Officia Culpa Impedit Harum Blandi Si Quis Dol Facilis Verodo Tot Quib Quoden"
+  title: "Welkom"
+  desc: "Welkom op de tweede editie van de A.C. Parels.  die je meeneemt op een onvergetelijke gravelrit door het prachtige Hageland. Deze rit, georganiseerd door gepassioneerde off-road bikers , belooft een dag vol uitdaging en vooral mooie vergezichten.
+
+A.C. (André Coppers) dé MTB pionier van het Hageland neemt je mee op zijn geliefkoosde MTB paadjes en gravel wegeltjes. Een vleugje kassei zorgt voor wat afwisseling. Afwisselende ondergronden, wisselende landschappen, pittige heuvels en vlakkere stukjes, akkerbouw en fruitplantages, valleien en plateau’s, holle wegen en vergezichten…..je zal het allemaal kunnen ontdekken.
+
+De tochten zijn geschikt voor zowel gravel fietsen als mountainbikes. Een groot aanbod van afstanden en hoogtemeters zorgen er zeker voor dat iedereen de geschikte uitdaging zal kunnen vinden aangepast aan ieders niveau."
   button:
     enable: true
     text: "Button"
     url: "#"
-  image: "assets/img/ipad.png"
+  image: "assets/img/Welkom.jpg"
 
 projects:
   card1:

@@ -1,4 +1,44 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'graysx'
+baseURL = "http://example.org/"
+languageCode = "en-us"
+theme = "graysx"
+
+[settings]
+title = "Hageland"
+
+[params]
+github = "https://github.com/akatiggerx04/graysx-hugo"
+facebook = "#"
+sbtoken = "TOKEN_HERE"
+logo = "assets/img/bike.svg"
+phone = "123456"
+twitter = "#"
+favicon = "assets/favicon.png"
+address = "123 Arch B1W, GNU/Linux"
+email = "hello@graysx.com"
+
+[menu]
+
+[[menu.main]]
+name = "Welkom"
+URL = "#welkom"
+weight = 1
+
+[[menu.main]]
+name = "2024 editie"
+URL = "#huidige_editie"
+weight = 2
+
+[[menu.main]]
+name = "Vorige edities"
+URL = "#vorige_edities"
+weight = 3
+
+[[menu.main]]
+name = "Over ons"
+URL = "#over_ons"
+weight = 4
+
+[[menu.main]]
+name = "Contact"
+URL = "#contact"
+weight = 5
