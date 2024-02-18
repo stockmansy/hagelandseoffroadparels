@@ -34,3 +34,57 @@ projects:
     title: "Graysx"
     text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
     img: "assets/img/demo-image-02.jpg"
+
+distances:
+  - title: "19 km Route"
+    description: "De 19 km route is ideaal voor beginners en degenen die graag op een rustig tempo willen genieten van de prachtige omgeving. Deze route omzeilt een paar stevige kuitenbijters maar je zal zeker voldoende genieten van het Hageland. 
+Waanrode-Miskom-Kortenaken-Loksbergen-Rijnrode-Waanrode."
+    supply: 1
+    height: 150
+    hills: 7
+  - title: "34 km Route"
+    description: "De 34 km route is eigenlijk het centrale deel van de tocht. Al het moois van het Hageland zit hierin gebundeld inclusief enkele pittige klimmen tot 15% stijging.
+Waanrode-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Waanrode."
+    supply: 1
+    height: 280
+    hills: 14
+  - title: "52 km Route"
+    description: "De 52 km is volgt de 34 km met een uitbreiding noordelijke richting.  (Diest). De bijkomende lus is een variatie van gravel/MTB met een paar steile kuitenbijters. Geniet op deze lus vooral van het aangeboden landschap.
+Waanrode-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Webbekom-Diest-Kaggevinne-Scherpenheuvel-Assent-Rijnrode-Waanrode"
+    supply: 1
+    height: 460
+    hills: 18
+  - title: "59 km Route"
+    description: "De 59 km is volgt de 34 km met reeds na enkele kilometer een splitsing naar het zuiden (Tienen). Deze lus is vlakker en heeft een meer uitgesproken gravel gehalte. We passeren de Getevallei en de Velpevallei maar moeten ook de Ransberg” beklimmen. De noordelijke lus richting Diest is niet opgenomen in deze route. De ideale korte gravelroute.
+Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom-Kortenaken-Loksbergen-Rijnrode-Waanrode"
+    supply: 1
+    height: 500
+    hills: 10
+  - title: "71 km Route"
+    description: "De 71 km is een combinatie van de 59 km en de 34 km. De zuidelijke lus (richting Tienen) en de centrale lus zorgen voor een perfecte combinatie tussen gravel en MTB. De noordelijke lus (richting Diest) zit niet in deze route
+Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Webbekom-Diest-Kaggevinne-Scherpenheuvel-Assent-Rijnrode-Waanrode -Waanrode"
+    supply: 2
+    height: 500
+    hills: 17
+  - title: "89 km Route"
+    description: "De 89 km een aaneensluiting van de hierboven aangehaalde lussen. Volgt zowel de zuidelijke lus richting Tienen als de noordelijke lus richting Diest. Beginnen doen we met het vlakkere deel Gete vallei, Velpe vallei  maar na 40 km komen de typische Hagelandse hellingen. Het doorzettingsvermogen zal hier zeker worden aangesproken maar ruimschoots gecompenseerd met adembenemende vergezichten.
+Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom Kortenaken-Loksbergen-Rijnrode-Waanrode"
+    supply: 2
+    height: 650
+    hills: 21
+
+information:
+  - title: "Inschrijving"
+    description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 26 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving ter plaatse aan de democratische prijs van 6 euro (1 bevoorrading) of 8 euro (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je 2 euro extra voor een dag verzekering. Betalen kan ook via payconiq. GRATIS deelname -15 jaar (°2009 en later) + een geschenk(je)."
+  - title: "Bevoorrading(en)"
+    description: "Op bevoorradingen 1 en 3 is er een ruim aanbod drank (water en energydrank) en voeding (bananen, suikerwafels, appelsienen, peperkoek). Op bevoorrading 2 (voor de 19km en de 59 km) is er water voorzien aangevuld met bananen en suikerwafel. Help de afvalberg verminderen en sorteer het achtergelaten vuil in de voorziene vuilbakken. Om ecologische redenen is het ook aangeraden om je drinkfles te her vullen en daarom zal het gebruik van drinkbekers beperkt zijn!"
+  - title: "Bij finish - Douches"
+    description: "Er is gelegenheid tot het nemen van een douche met aparte kleedruimtes voor dames en heren. Voor je comfort voorzien we ook een bewaakte fietsenparking. Een afspuitstand om je fiets ook een douche te geven zal eveneens aanwezig zijn."
+  - title: "Vrouwvriendelijke organisatie"
+    description: "Wetende dat er op elke tocht meer en meer vrouwen aanwezig zijn zullen we ervoor zorgen dat op bevoorradingsposten 1 en 3 een toilet aanwezig is. Vanzelfsprekend doen we ook een oproep aan alle mannelijke deelnemers om hiervan gebruik te maken."
+  - title: "Technische bijstand"
+    description: "Op bevoorradingen 1 en 3 zal een beperkte technische bijstand aangeboden worden. Op het polsbandje zal een noodnummer aangebracht worden waar -in uiterste nood- contact kan mee worden genomen. Een lekke band kan iedereen wel zelf herstellen…."
+  - title: "Gezelligheid"
+    description: "Na de rit kun je ontspannen en napraten met andere deelnemers onder het genot van heerlijk Food & Drinks."
+  - title: "GEDRAGSCODE"
+    description: "Gebruikers van MTB en GRAVELfietsen -respecteren mens, dier en natuur. -zijn steeds hoffelijk. -laten geen vuil achter. -respecteren de verkeersregels."

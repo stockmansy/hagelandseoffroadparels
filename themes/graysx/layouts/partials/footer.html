@@ -1,5 +1,18 @@
 <!-- Footer-->
-<footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; {{ .Name }} {{ now.Format "2006"}}</div></footer>
+<footer class="bg-gray-300 border-t flex flex-col space-y-10 justify-center p-10">
+  <div class="flex justify-center space-x-5">
+    <a href="{{ site.Params.facebook }}" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+    </a>
+    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+    </a>
+    <a href="{{ site.Params.twitter }}" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+    </a>
+  </div>
+  <p class="text-center text-gray-700 font-medium">Copyright &copy; {{ .Name }} {{ now.Format "2006"}}</p>
+</footer>
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Core theme JS-->
