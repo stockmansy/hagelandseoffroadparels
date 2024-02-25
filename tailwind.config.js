@@ -3,7 +3,7 @@ module.exports = {
   content: ["./themes/**/*.{html,js}", "./content/*.md"],
   theme: {
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
+      sans: ['Noto Sans', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
     extend: {
@@ -20,6 +20,8 @@ module.exports = {
   
         'base-color': 'rgb(93, 49, 45)',
         'base-accent': 'rgb(255, 255, 61)',
+        'side-color': '#ae8a87',
+        'side-color-accent': '#000',
         'link-active': '#467370',
         'link-social': 'rgba(255, 255, 255, 0.3)',
         'link-social-active': '#fff',

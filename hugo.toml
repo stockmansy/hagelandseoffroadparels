@@ -29,16 +29,16 @@ URL = "#huidige_editie"
 weight = 2
 
 [[menu.main]]
-name = "Vorige edities"
-URL = "#vorige_edities"
+name = "Afstanden"
+URL = "#afstanden"
 weight = 3
+
+[[menu.main]]
+name = "Informatie"
+URL = "#informatie"
+weight = 4
 
 [[menu.main]]
 name = "Over ons"
 URL = "#over_ons"
-weight = 4
-
-[[menu.main]]
-name = "Contact"
-URL = "#contact"
 weight = 5

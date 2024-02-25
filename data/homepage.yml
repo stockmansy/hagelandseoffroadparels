@@ -1,7 +1,9 @@
 # Main Title
 main:
   header:
-    title : "A.C. Hagelandse Off-Road Parels" # Title Text
+    title: |
+      A.C. Hagelandse 
+      Off-Road Parels
     description : "26-06-2024" # Title Desc
     button:
       text: "Welkom" # Button Text
