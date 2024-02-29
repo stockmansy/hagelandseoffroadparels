@@ -28,6 +28,10 @@ module.exports = {
         'link-social-hover': 'rgba(255, 255, 255, 0.5)',
         'link-social-background': 'rgba(255, 255, 255, 0.1)'
       },
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
+      }
     }
   },
   plugins: [],
