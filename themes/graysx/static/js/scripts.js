@@ -27,7 +27,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   let sections = {};
   let i = 0;
 
-  Array.prototype.forEach.call(section, function (e) {
+  Array.prototype.forEach.call(section, (e) => {
     sections[e.id] = e.offsetTop;
   });
 
@@ -45,4 +45,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
   window.onscroll = scrollSpy;
   scrollSpy();
+
+  // Close menu
+  const menuItems = document.querySelectorAll(".navbar-nav a");
+  const checkbox = document.getElementById("navbar-checkbox");
+  Array.prototype.forEach.call(menuItems, (item) => {
+    item.addEventListener("click", () => {
+      checkbox.checked = false;
+    });
+  });
 });
