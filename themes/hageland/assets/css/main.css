@@ -159,7 +159,6 @@ h1 {
     padding-bottom: 0;
     border-bottom: none;
     background-color: transparent;
-    transition: background-color 0.3s ease-in-out;
 
     .navbar-brand {
       padding: 0.5rem 0;

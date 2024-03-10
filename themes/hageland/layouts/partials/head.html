@@ -4,7 +4,7 @@
   <meta name="description" content="De website van de A.C. Hagelandse Off-Road Parels" />
   <meta name="author" content="Yannick Stockmans" />
   <link rel="icon" href="{{ site.Params.favicon }}" />
-  {{ $opts := dict "transpiler" "libsass" "targetPath" "css/style.css" }} {{ with resources.Get "css/style.css" | minify | fingerprint }}
+  {{ with resources.Get "css/style.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" />
   {{ end }}
   <title>{{ site.Params.title }}</title>
