@@ -315,7 +315,7 @@
                 <h4 class="uppercase m-0">{{ .email.title }}</h4>
                 <hr class="my-4 mx-auto" />
                 <div class="text-xs text-black-50">
-                  <a href="#!">{{ .email.description }}</a>
+                  <a href="#!"><span>{{ $.Page.RenderString .email.description }}</span><span>{{ $.Page.RenderString .email.descriptionpart2 }}</span></a>
                 </div>
               </div>
             </div>
