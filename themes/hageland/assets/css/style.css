@@ -1403,10 +1403,7 @@ h1 {
   }
 
   #mainNav.navbar-shrink {
-    background-color: rgb(93, 49, 45);
-    background-blend-mode: multiply;
-    background-image: url("../assets/img/vintage-concrete.png");
-    background-repeat: repeat;
+    background-color: #532a22;
   }
 
   #mainNav.navbar-shrink .navbar-nav {
@@ -1486,6 +1483,20 @@ h1 {
 }
 
 @media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0
+  }
+
+  .masthead h1,
+    .masthead .h1 {
+    font-size: 4rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+}
+
+@media (min-width: 1300px) {
   .masthead {
     height: 100vh;
     padding: 0

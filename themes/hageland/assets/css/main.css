@@ -181,10 +181,7 @@ h1 {
     }
 
     &.navbar-shrink {
-      background-color: theme("colors.base-color");
-      background-blend-mode: multiply;
-      background-image: url("../assets/img/vintage-concrete.png");
-      background-repeat: repeat;
+      background-color: theme("colors.nav-color");
 
       .navbar-nav {
         padding-top: 16px;
@@ -262,6 +259,18 @@ h1 {
   }
 
   @media (min-width: 992px) {
+    height: 100vh;
+    padding: 0;
+
+    h1,
+    .h1 {
+      font-size: 4rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+  }
+
+  @media (min-width: 1300px) {
     height: 100vh;
     padding: 0;
 

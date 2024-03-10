@@ -20,6 +20,7 @@ module.exports = {
   
         'base-color': 'rgb(93, 49, 45)',
         'base-accent': 'rgb(255, 255, 61)',
+        'nav-color': '#532a22',
         'side-color': '#ae8a87',
         'side-color-accent': '#000',
         'link-active': '#467370',
