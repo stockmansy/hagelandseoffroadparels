@@ -101,6 +101,7 @@ h1 {
 
     img {
       width: 20px;
+      max-width: 20px;
       display: flex;
       margin-right: 10px;
     }
@@ -245,7 +246,7 @@ h1 {
   h1,
   .h1 {
     font-size: 2.5rem;
-    line-height: 2.5rem;
+    line-height: 3.4rem;
     letter-spacing: 0.8rem;
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
     -webkit-text-fill-color: transparent;
