@@ -97,6 +97,7 @@ h1 {
 
   .navbar-logo {
     width: 200px;
+    max-width: 200px;
     word-wrap: break-word;
     display: flex;
 
@@ -119,6 +120,7 @@ h1 {
 
       img {
         width: 50px;
+        max-width: 50px;
         margin-right: 20px;
       }
 
@@ -188,7 +190,7 @@ h1 {
 
       .navbar-nav {
         padding-top: 16px;
-        transition: background-color .3s ease-in-out;
+        transition: background-color 0.3s ease-in-out;
       }
 
       .nav-link {
@@ -236,6 +238,10 @@ h1 {
 
   @supports (background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 75%, #000 100%), url("../assets/img/bg-bikes.webp")) {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 75%, #000 100%), url("../assets/img/bg-bikes.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
   }
 
   h1,
@@ -326,7 +332,7 @@ h2,
     mask-size: 100% 100%;
 
     &.brushed-wide {
-      @media (max-width: 1023px) { 
+      @media (max-width: 1023px) {
         mask-size: 300% 100%;
       }
     }

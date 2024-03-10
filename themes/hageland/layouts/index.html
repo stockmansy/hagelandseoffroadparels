@@ -193,17 +193,17 @@
                 <!-- Decorative image grid -->
                 <div aria-hidden="true" class="pointer-events-none">
                   <div class="flex items-center">
-                    <div class="flex items-center space-x-6 lg:space-x-8 mx-auto">
-                      <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div class="h-40 w-[140px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
+                    <div class="flex items-center space-x-2 sm:space-x-6 lg:space-x-8 mx-auto">
+                      <div class="grid flex-shrink-0 grid-cols-1 gap-2 sm:gap-y-6 lg:gap-y-8">
+                        <div class="h-40 w-[120px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
                           <picture>
-                            {{ $image1 := resources.Get "images/over/1.jpg" }} {{ $medium1 := $image1.Resize "768x" }} {{ $mediumwebp1 := $image1.Resize "768x webp" }}
-                            <source srcset="{{ $mediumwebp1.RelPermalink }}" type="image/webp" />
-                            <source srcset="{{ $medium1.RelPermalink }}" type="image/jpeg" />
-                            <img src="{{ $medium1.RelPermalink }}" alt="Over ons 1" class="h-full w-full object-cover object-center" />
+                            {{ $image6 := resources.Get "images/over/6.jpg" }} {{ $medium6 := $image6.Resize "768x" }} {{ $mediumwebp6 := $image6.Resize "768x webp" }}
+                            <source srcset="{{ $mediumwebp6.RelPermalink }}" type="image/webp" />
+                            <source srcset="{{ $medium6.RelPermalink }}" type="image/jpeg" />
+                            <img src="{{ $medium6.RelPermalink }}" alt="Over ons 6" class="h-full w-full object-cover object-center" />
                           </picture>
                         </div>
-                        <div class="h-40 w-[140px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
+                        <div class="h-40 w-[120px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
                           <picture>
                             {{ $image2 := resources.Get "images/over/2.jpg" }} {{ $medium2 := $image2.Resize "768x" }} {{ $mediumwebp2 := $image2.Resize "768x webp" }}
                             <source srcset="{{ $mediumwebp2.RelPermalink }}" type="image/webp" />
@@ -212,8 +212,8 @@
                           </picture>
                         </div>
                       </div>
-                      <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div class="h-40 w-[140px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
+                      <div class="grid flex-shrink-0 grid-cols-1 gap-2 sm:gap-y-6 lg:gap-y-8">
+                        <div class="h-40 w-[120px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
                           <picture>
                             {{ $image3 := resources.Get "images/over/3.jpg" }} {{ $medium3 := $image3.Resize "768x" }} {{ $mediumwebp3 := $image3.Resize "768x webp" }}
                             <source srcset="{{ $mediumwebp3.RelPermalink }}" type="image/webp" />
@@ -221,7 +221,7 @@
                             <img src="{{ $medium3.RelPermalink }}" alt="Over ons 3" class="h-full w-full object-cover object-center" />
                           </picture>
                         </div>
-                        <div class="h-40 w-[140px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
+                        <div class="h-40 w-[120px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
                           <picture>
                             {{ $image4 := resources.Get "images/over/4.jpg" }} {{ $medium4 := $image4.Resize "768x" }} {{ $mediumwebp4 := $image4.Resize "768x webp" }}
                             <source srcset="{{ $mediumwebp4.RelPermalink }}" type="image/webp" />
@@ -229,7 +229,7 @@
                             <img src="{{ $medium4.RelPermalink }}" alt="Over ons 4" class="h-full w-full object-cover object-center" />
                           </picture>
                         </div>
-                        <div class="h-40 w-[140px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
+                        <div class="h-40 w-[120px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
                           <picture>
                             {{ $image5 := resources.Get "images/over/5.jpg" }} {{ $medium5 := $image5.Resize "768x" }} {{ $mediumwebp5 := $image5.Resize "768x webp" }}
                             <source srcset="{{ $mediumwebp5.RelPermalink }}" type="image/webp" />
@@ -238,16 +238,16 @@
                           </picture>
                         </div>
                       </div>
-                      <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div class="h-40 w-[140px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
+                      <div class="grid flex-shrink-0 grid-cols-1 gap-2 sm:gap-y-6 lg:gap-y-8">
+                        <div class="h-40 w-[120px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
                           <picture>
-                            {{ $image6 := resources.Get "images/over/6.jpg" }} {{ $medium6 := $image6.Resize "768x" }} {{ $mediumwebp6 := $image6.Resize "768x webp" }}
-                            <source srcset="{{ $mediumwebp6.RelPermalink }}" type="image/webp" />
-                            <source srcset="{{ $medium6.RelPermalink }}" type="image/jpeg" />
-                            <img src="{{ $medium6.RelPermalink }}" alt="Over ons 6" class="h-full w-full object-cover object-center" />
+                            {{ $image1 := resources.Get "images/over/1.jpg" }} {{ $medium1 := $image1.Resize "768x" }} {{ $mediumwebp1 := $image1.Resize "768x webp" }}
+                            <source srcset="{{ $mediumwebp1.RelPermalink }}" type="image/webp" />
+                            <source srcset="{{ $medium1.RelPermalink }}" type="image/jpeg" />
+                            <img src="{{ $medium1.RelPermalink }}" alt="Over ons 1" class="h-full w-full object-cover object-center" />
                           </picture>
                         </div>
-                        <div class="h-40 w-[140px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
+                        <div class="h-40 w-[120px] sm:h-64 sm:w-44 overflow-hidden rounded-lg">
                           <picture>
                             {{ $image7 := resources.Get "images/over/7.jpg" }} {{ $medium7 := $image7.Resize "778x" }} {{ $mediumwebp7 := $image7.Resize "778x webp" }}
                             <source srcset="{{ $mediumwebp7.RelPermalink }}" type="image/webp" />
