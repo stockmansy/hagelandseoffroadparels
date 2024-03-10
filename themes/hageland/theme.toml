@@ -1,0 +1,14 @@
+name = "Hageland"
+license = "Unlicenced"
+licenselink = "https://github.com/stockmansy/hagelandseoffroadparels/LICENSE"
+private = true
+description = "A website made for family by Yannick Stockmans"
+homepage = "https://github.com/stockmansy/hagelandseoffroadparels"
+tags = ["sport", "bike", "belgium"]
+features = ["responsive"]
+min_version = "1.0.0"
+
+[author]
+  name = "Yannick Stockmans"
+  homepage = "https://github.com/stockmansy/hagelandseoffroadparels"
+  repo = "https://github.com/stockmansy/hagelandseoffroadparels"

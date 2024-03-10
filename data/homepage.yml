@@ -1,92 +1,128 @@
+markup:
+  defaultMarkdownHandler: goldmark
+
 # Main Title
 main:
   header:
     title: |
       A.C. Hagelandse 
       Off-Road Parels
-    description : "26-06-2024" # Title Desc
-    button:
-      text: "Welkom" # Button Text
-      url: "#welkom" # Button URL
+    description : "Nieuwe Editie 26-06-2024"
 
 # About
 about:
   title: "Welkom"
-  desc: "Welkom op de tweede editie van de A.C. Parels.  die je meeneemt op een onvergetelijke gravelrit door het prachtige Hageland. Deze rit, georganiseerd door gepassioneerde off-road bikers , belooft een dag vol uitdaging en vooral mooie vergezichten.
+  description: |
+    Welkom op de tweede editie van de A.C. Parels.  die je meeneemt op een onvergetelijke gravelrit door het prachtige Hageland. Deze rit, georganiseerd door gepassioneerde off-road bikers , belooft een dag vol uitdaging en vooral mooie vergezichten.
 
-A.C. (André Coppers) dé MTB pionier van het Hageland neemt je mee op zijn geliefkoosde MTB paadjes en gravel wegeltjes. Een vleugje kassei zorgt voor wat afwisseling. Afwisselende ondergronden, wisselende landschappen, pittige heuvels en vlakkere stukjes, akkerbouw en fruitplantages, valleien en plateau’s, holle wegen en vergezichten…..je zal het allemaal kunnen ontdekken.
+    A.C. (André Coppers) dé MTB pionier van het Hageland neemt je mee op zijn geliefkoosde MTB paadjes en gravel wegeltjes. Een vleugje kassei zorgt voor wat afwisseling. Afwisselende ondergronden, wisselende landschappen, pittige heuvels en vlakkere stukjes, akkerbouw en fruitplantages, valleien en plateau’s, holle wegen en vergezichten… je zal het allemaal kunnen ontdekken.
 
-De tochten zijn geschikt voor zowel gravel fietsen als mountainbikes. Een groot aanbod van afstanden en hoogtemeters zorgen er zeker voor dat iedereen de geschikte uitdaging zal kunnen vinden aangepast aan ieders niveau."
+    De tochten zijn geschikt voor zowel gravel fietsen als mountainbikes. Een groot aanbod van afstanden en hoogtemeters zorgen er zeker voor dat iedereen de geschikte uitdaging zal kunnen vinden aangepast aan ieders niveau.
   button:
     enable: true
     text: "Button"
     url: "#"
   image: "assets/img/Welkom.jpg"
 
-projects:
-  card1:
-    title: "Graysx"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
-    img: "assets/img/bg-masthead.jpg"
-  card2:
-    title: "Graysx"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
-    img: "assets/img/demo-image-01.jpg"
-  card3:
-    title: "Graysx"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
-    img: "assets/img/demo-image-02.jpg"
+currentedition:
+  title: "**2024 Editie** Waanrode"
+  register:
+    date: "26 Juni 2024"
+    title: "Inschrijving"
+    description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 26 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving **ter plaatse** aan de democratische prijs van **6 euro** (1 bevoorrading) of **8 euro** (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.** Betalen kan ook via payconiq. **GRATIS deelname -15 jaar** (°2009 en later) + een geschenk(je)."
+    place: "KORTENAKEN FIT & MOVE voetbalveld SK Waanrode, Gps: Steenbergstraat, 3470 KORTENAKEN"
+  reasons:
+    title: "Redenen waarom je er zondag 26 juni 2024 zeker bij moet zijn."
+    description: |
+      1.	Mooie afwisselende routes samengesteld door MTB pioniers uit de streek.
+      2.	Democratisch inschrijfgeld en gratis voor -15 jaar (° 2009 en later) + een geschenk(je).
+      3.	Uitstekende bevoorradingen.
+      4.	Technische bijstand aan de bevoorradingsplaatsen.
+      5.	Vouwvriendelijke organisatie: toiletmogelijkheid op bevoorradingsplaatsen.
+      6.	Ruime keuze van aangeboden afstanden zodat iedereen een keuze kan maken volgens eigen niveau.
+      7.	Geschikt voor zowel gravel als mountainbike fietsen.
+      8.	DE off-road streek van Vlaanderen. Het heuvelachtige Hageland en zijn licht glooiende uitlopers naar het Haspengouw.
 
-distances:
-  - title: "19 km Route"
-    description: "De 19 km route is ideaal voor beginners en degenen die graag op een rustig tempo willen genieten van de prachtige omgeving. Deze route omzeilt een paar stevige kuitenbijters maar je zal zeker voldoende genieten van het Hageland. 
-Waanrode-Miskom-Kortenaken-Loksbergen-Rijnrode-Waanrode."
-    supply: 1
-    height: 150
-    hills: 7
-  - title: "34 km Route"
-    description: "De 34 km route is eigenlijk het centrale deel van de tocht. Al het moois van het Hageland zit hierin gebundeld inclusief enkele pittige klimmen tot 15% stijging.
-Waanrode-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Waanrode."
-    supply: 1
-    height: 280
-    hills: 14
-  - title: "52 km Route"
-    description: "De 52 km is volgt de 34 km met een uitbreiding noordelijke richting.  (Diest). De bijkomende lus is een variatie van gravel/MTB met een paar steile kuitenbijters. Geniet op deze lus vooral van het aangeboden landschap.
-Waanrode-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Webbekom-Diest-Kaggevinne-Scherpenheuvel-Assent-Rijnrode-Waanrode"
-    supply: 1
-    height: 460
-    hills: 18
-  - title: "59 km Route"
-    description: "De 59 km is volgt de 34 km met reeds na enkele kilometer een splitsing naar het zuiden (Tienen). Deze lus is vlakker en heeft een meer uitgesproken gravel gehalte. We passeren de Getevallei en de Velpevallei maar moeten ook de Ransberg” beklimmen. De noordelijke lus richting Diest is niet opgenomen in deze route. De ideale korte gravelroute.
-Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom-Kortenaken-Loksbergen-Rijnrode-Waanrode"
-    supply: 1
-    height: 500
-    hills: 10
-  - title: "71 km Route"
-    description: "De 71 km is een combinatie van de 59 km en de 34 km. De zuidelijke lus (richting Tienen) en de centrale lus zorgen voor een perfecte combinatie tussen gravel en MTB. De noordelijke lus (richting Diest) zit niet in deze route
-Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Webbekom-Diest-Kaggevinne-Scherpenheuvel-Assent-Rijnrode-Waanrode -Waanrode"
-    supply: 2
-    height: 500
-    hills: 17
-  - title: "89 km Route"
-    description: "De 89 km een aaneensluiting van de hierboven aangehaalde lussen. Volgt zowel de zuidelijke lus richting Tienen als de noordelijke lus richting Diest. Beginnen doen we met het vlakkere deel Gete vallei, Velpe vallei  maar na 40 km komen de typische Hagelandse hellingen. Het doorzettingsvermogen zal hier zeker worden aangesproken maar ruimschoots gecompenseerd met adembenemende vergezichten.
-Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom Kortenaken-Loksbergen-Rijnrode-Waanrode"
-    supply: 2
-    height: 650
-    hills: 21
+dinstancegroup:
+  title: Afstanden
+  description: |
+    Voor de A.C. Hagelandse Off-Road Parels hebben we verschillende afstanden om aan ieders behoeften te voldoen. Of je nu graag een korte en intensieve rit wilt maken of liever wat langer op de fiets zit, er is een afstand die perfect bij jou past. Bovendien kan je je gekozen afstand **modulair samenstellen** zodat nog bijkomende afstanden mogelijk zijn. 
+
+    De lussen van 35, 54, 68 en 87 km worden volledig bewegwijzerd. Door lussen weg te laten of toe te voegen kan er gekozen worden uit meerdere mogelijke afstanden vanaf 24 kilometer. De lussen die kunnen ingekort worden (totaal 11 km) zijn 2 km / 2 km / 4.5 km / 1 km / 1.5 km met in elke lus een pittige klim.
+  distances:
+    - title: "35 km Route"
+      description: |
+        De 35 km route is eigenlijk het **centrale deel** van de tocht. Al het moois van het Hageland zit hierin gebundeld inclusief enkele pittige klimmen tot 15% stijging. Hier vinden we een hoger mountainbike gehalte.    
+        
+        Waanrode-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Waanrode
+      supply: 1
+      height: 320
+      hills: 14
+    - title: "54 km Route"
+      description: |
+        De 54 km is volgt de 35 km met een **uitbreiding noordelijke** richting.  (Diest). De bijkomende lus is een variatie van gravel/MTB met een paar steile kuitenbijters. Geniet op deze lus vooral van het aangeboden landschap.
+        
+        Waanrode-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Webbekom-Diest-Kaggevinne-Scherpenheuvel-Assent-Rijnrode-Waanrode
+      supply: 1
+      height: 460
+      hills: 18
+    - title: "68 km Route"
+      description: |
+        De 68 km is een combinatie van de 57 km en de 35 km. De **zuidelijke** lus (richting Tienen) en de centrale lus zorgen voor een perfecte combinatie tussen gravel en MTB. Beginnen doen we met het vlakkere deel Gete vallei, Velpe vallei  maar na 30 km komen de typische Hagelandse hellingen. De noordelijke lus (richting Diest) zit niet in deze route.
+        
+        Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Webbekom-Diest-Kaggevinne-Scherpenheuvel-Assent-Rijnrode-Waanrode
+      supply: 2
+      height: 500
+      hills: 17
+    - title: "87 km Route"
+      description: |
+        De 87 km een aaneensluiting van **alle** hierboven aangehaalde lussen. Volgt zowel de zuidelijke lus richting Tienen (deze lus heeft een hoog gravelgehalte) als de noordelijke lus richting Diest. Het doorzettingsvermogen zal hier zeker worden aangesproken maar ruimschoots gecompenseerd met adembenemende vergezichten.
+        
+        Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom Kortenaken-Loksbergen-Rijnrode-Waanrode
+      supply: 2
+      height: 620
+      hills: 21
+  supply: "Bevoorrading"
+  height: "Hoogtemeters"
+  hills: "Hellingen"
 
 information:
-  - title: "Inschrijving"
-    description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 26 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving ter plaatse aan de democratische prijs van 6 euro (1 bevoorrading) of 8 euro (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je 2 euro extra voor een dag verzekering. Betalen kan ook via payconiq. GRATIS deelname -15 jaar (°2009 en later) + een geschenk(je)."
-  - title: "Bevoorrading(en)"
-    description: "Op bevoorradingen 1 en 3 is er een ruim aanbod drank (water en energydrank) en voeding (bananen, suikerwafels, appelsienen, peperkoek). Op bevoorrading 2 (voor de 19km en de 59 km) is er water voorzien aangevuld met bananen en suikerwafel. Help de afvalberg verminderen en sorteer het achtergelaten vuil in de voorziene vuilbakken. Om ecologische redenen is het ook aangeraden om je drinkfles te her vullen en daarom zal het gebruik van drinkbekers beperkt zijn!"
-  - title: "Bij finish - Douches"
-    description: "Er is gelegenheid tot het nemen van een douche met aparte kleedruimtes voor dames en heren. Voor je comfort voorzien we ook een bewaakte fietsenparking. Een afspuitstand om je fiets ook een douche te geven zal eveneens aanwezig zijn."
-  - title: "Vrouwvriendelijke organisatie"
-    description: "Wetende dat er op elke tocht meer en meer vrouwen aanwezig zijn zullen we ervoor zorgen dat op bevoorradingsposten 1 en 3 een toilet aanwezig is. Vanzelfsprekend doen we ook een oproep aan alle mannelijke deelnemers om hiervan gebruik te maken."
-  - title: "Technische bijstand"
-    description: "Op bevoorradingen 1 en 3 zal een beperkte technische bijstand aangeboden worden. Op het polsbandje zal een noodnummer aangebracht worden waar -in uiterste nood- contact kan mee worden genomen. Een lekke band kan iedereen wel zelf herstellen…."
-  - title: "Gezelligheid"
-    description: "Na de rit kun je ontspannen en napraten met andere deelnemers onder het genot van heerlijk Food & Drinks."
-  - title: "GEDRAGSCODE"
-    description: "Gebruikers van MTB en GRAVELfietsen -respecteren mens, dier en natuur. -zijn steeds hoffelijk. -laten geen vuil achter. -respecteren de verkeersregels."
+  title: "Informatie"
+  items:
+    - title: "Inschrijving"
+      description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 26 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving **ter plaatse** aan de democratische prijs van **6 euro** (1 bevoorrading) of **8 euro** (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.** Betalen kan ook via payconiq. **GRATIS deelname -15 jaar** (°2009 en later) + een geschenk(je)."
+    - title: "Bevoorrading(en)"
+      description: "Op bevoorradingen is er een **ruim aanbod** drank (water en energydrank) en voeding (bananen, suikerwafels, appelsienen, peperkoek). Help de afvalberg verminderen en sorteer het achtergelaten vuil in de voorziene vuilbakken. Om ecologische redenen is het ook aangeraden om je **drinkfles te her vullen** en daarom zal het gebruik van drinkbekers beperkt zijn!"
+    - title: "Bij finish - Douches"
+      description: "Er is gelegenheid tot het nemen van een douche met aparte **kleedruimtes voor dames en heren**. Voor je comfort voorzien we ook een **bewaakte fietsenparking**. Een **afspuitstand** om je fiets ook een douche te geven zal eveneens aanwezig zijn."
+    - title: "Vrouwvriendelijke organisatie"
+      description: "Wetende dat er op elke tocht meer en meer vrouwen aanwezig zijn zullen we ervoor zorgen dat op elke bevoorradingspost **een toilet** aanwezig is. Vanzelfsprekend doen we ook een oproep aan alle mannelijke deelnemers om hiervan gebruik te maken."
+    - title: "Technische bijstand"
+      description: "**Op bevoorradingen** zal een beperkte technische bijstand aangeboden worden. Op het polsbandje zal een **noodnummer** aangebracht worden waar -in uiterste nood- contact kan mee worden genomen. Een lekke band kan iedereen wel zelf herstellen…."
+    - title: "Gezelligheid"
+      description: "Na de rit kun je ontspannen en napraten met andere deelnemers onder het genot van **heerlijke Foods & Drinks**."
+    - title: "GEDRAGSCODE"
+      description: |
+        Gebruikers van MTB en GRAVELfietsen 
+        -respecteren mens, dier en natuur. 
+        -zijn steeds hoffelijk. 
+        -laten geen vuil achter. 
+        -respecteren de verkeersregels.
+
+
+club: 
+  title: "Sportclub Fit & Move Kortenaken."
+  description: "Leden van de club kunnen volgende sportbedrijvigheden beoefenen op recreatieve basis: fietsen en alle voorbereidende sporten zoals zwemmen, joggen, turnen, fitness. Maar de hoofdactiviteit is en blijft het off-road fietsen. De club is erkend als sportclub door de gemeente Kortenaken en door de provincie Vlaams-Brabant. Na de eerste editie in 2023 (met bijna 600 enthousiaste deelnemers) zullen we al het mogelijke doen om jullie optimaal te laten genieten van het mooie Hageland en de uitlopers richting Haspengouw."
+  btn: "Contact"
+
+contact:
+  title: "Onze contactgevens"
+  address: 
+    title: "Adres / Locatie"
+    description: "KORTENAKEN FIT & MOVE voetbalveld SK Waanrode, Gps: Steenbergstraat, 3470 KORTENAKEN"
+  email: 
+    title: "Email"
+    description: "andre.coppers@telenet.be"
+  cellphone: 
+    title: "Gsm"
+    description: "0498 45 57 16"

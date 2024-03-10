@@ -5,8 +5,8 @@
     "tailwindcss": "^3.4.1"
   },
   "scripts": {
-    "build-tw": "npx tailwindcss -i ./themes/graysx/assets/css/main.css -o ./themes/graysx/assets/css/style.css",
-    "watch-tw": "npx tailwindcss -i ./themes/graysx/assets/css/main.css -o ./themes/graysx/assets/css/style.css -w --minify",
+    "build-tw": "npx tailwindcss -i ./themes/hageland/assets/css/main.css -o ./themes/hageland/assets/css/style.css",
+    "watch-tw": "npx tailwindcss -i ./themes/hageland/assets/css/main.css -o ./themes/hageland/assets/css/style.css -w --minify",
     "hugo-server": "hugo server"
   }
 }

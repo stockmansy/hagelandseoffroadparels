@@ -1,20 +1,16 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-theme = "graysx"
-
-[settings]
-title = "Hageland"
+baseURL = "https://www.hagelandseoffroadparels.be/"
+languageCode = "nl-be"
+theme = "hageland"
 
 [params]
-github = "https://github.com/akatiggerx04/graysx-hugo"
+title = "A.C. Hagelandse Off-Road Parels"
+github = "https://github.com/stockmansy/hagelandseoffroadparels"
 facebook = "#"
 sbtoken = "TOKEN_HERE"
 logo = "assets/img/bike.svg"
 phone = "123456"
 twitter = "#"
-favicon = "assets/favicon.png"
-address = "123 Arch B1W, GNU/Linux"
-email = "hello@graysx.com"
+favicon = "assets/favicon.ico"
 
 [menu]
 
