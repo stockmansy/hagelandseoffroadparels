@@ -2,9 +2,10 @@
 <nav class="navbar navbar-shrink text-white top-0 right-0 left-0 z-40 fixed h-14 lg:h-20" id="mainNav">
   <div class="container mx-auto px-6 2xl:px-12 text-right">
     <div class="navbar-logo brush-wrap text-left">
-      <img src="{{ .Site.Params.logo }}" alt="logo" />
+      <img src="{{ .Site.Params.logo }}" alt="logo" width="20" />
       {{ with site.Data.homepage.main }}
-      <a class="navbar-brand" href="#page-top">{{ .header.title }}</a>
+      {{ $content := replace .header.title "\n" "<br />" | safeHTML }}
+      <a class="navbar-brand text-base-color" href="#page-top">{{ $content }}</a>
       {{ end }}
     </div>
 
