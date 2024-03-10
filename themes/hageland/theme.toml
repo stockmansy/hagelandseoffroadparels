@@ -3,12 +3,12 @@ license = "Unlicenced"
 licenselink = "https://github.com/stockmansy/hagelandseoffroadparels/LICENSE"
 private = true
 description = "A website made for family by Yannick Stockmans"
-homepage = "https://github.com/stockmansy/hagelandseoffroadparels"
+homepage = "https://www.hagelandseoffroadparels.be"
 tags = ["sport", "bike", "belgium"]
 features = ["responsive"]
 min_version = "1.0.0"
 
 [author]
   name = "Yannick Stockmans"
-  homepage = "https://github.com/stockmansy/hagelandseoffroadparels"
+  homepage = "https://www.hagelandseoffroadparels.be"
   repo = "https://github.com/stockmansy/hagelandseoffroadparels"
