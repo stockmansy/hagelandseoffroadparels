@@ -44,7 +44,7 @@
       </div>
       <div class="pb-12">
         <div class="container mx-auto px-4 lg:px-12 grid md:gap-16 md:grid-cols-2 pt-16">
-          <div>
+          <div class="relative">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.3231129445203!2d4.995012377559897!3d50.917739653607114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1403d0f3fb00b%3A0xc126dece8a7ccdb9!2sSK%20Waanrode!5e0!3m2!1sen!2sbe!4v1707330273229!5m2!1sen!2sbe"
               width="600"
@@ -52,9 +52,15 @@
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              class="border-2 min-h-56 h-full w-full object-cover object-top"
+              class="border-2 min-h-56 h-full w-full object-cover object-top relative z-10"
               title="Google maps"
             ></iframe>
+            <picture class="absolute top-0">
+              {{ $image := resources.Get "images/waanrode.jpg" }} {{ $mediumW := $image.Resize "430x" }} {{ $mediumWwebp := $image.Resize "430x webp" }}
+              <source srcset="{{ $mediumWwebp.RelPermalink }}" type="image/webp" />
+              <source srcset="{{ $mediumW.RelPermalink }}" type="image/jpeg" />
+              <img src="{{ $mediumW.RelPermalink }}" alt="Waanrode" />
+            </picture>
           </div>
           <div>
             <div class="pt-8">
