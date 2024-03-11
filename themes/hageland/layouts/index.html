@@ -34,12 +34,14 @@
       </div>
     </section>
     {{ end }}
-    <!-- Projects-->
+    <!-- Current edition-->
     {{ with site.Data.homepage.currentedition }}
     <section class="bg-white pb-8" id="huidige_editie">
       <div class="bg-base-color brushed pb-28 -mt-80 -mx-40 pt-96 flex items-center z-10">
         <div class="text-white brushed inline-block py-8 px-20 mx-auto uppercase">
-          <h2 class="text-6xl lg:text-8xl text-center">{{ $.Page.RenderString .title }}</h2>
+          <a name="huidige_editie_anchor">
+            <h2 class="text-6xl lg:text-8xl text-center">{{ $.Page.RenderString .title }}</h2>
+          </a>
         </div>
       </div>
       <div class="pb-12">
@@ -52,7 +54,7 @@
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              class="border-2 min-h-56 h-full w-full object-cover object-top relative z-10"
+              class="border-2 min-h-56 h-full w-full object-cover object-top relative z-10" 
               title="Google maps"
             ></iframe>
             <picture class="absolute top-0">
@@ -87,10 +89,10 @@
       </div>
     </section>
     <div class="bg-gray-100 brushed pt-144 -mx-40">&nbsp;</div>
+    <!-- Distances-->
     {{ with site.Data.homepage.dinstancegroup }}
     <section class="bg-gray-100 -mt-128 relative z-20" id="afstanden">
-      <div class="container mx-auto px-4 lg:px-12">
-        <!-- Distances-->
+      <div class="container mx-auto px-4 lg:px-12">        
         <div class="relative z-20">
           <h2 class="text-4xl tracking-tight font-extrabold text-gray-900">{{ .title }}</h2>
         </div>
@@ -149,12 +151,14 @@
     {{ end }}
     <div class="bg-gray-100 brushed pt-144 -mx-40 -mt-128 -mb-80 relative z-10">&nbsp;</div>
     {{ end }}
-    <!-- Projects-->
+    <!-- Information-->
     {{ with site.Data.homepage.information }}
     <section class="relative z-1 pt-60 pb-12" id="informatie">
       <div class="pt-16 container mx-auto px-4 lg:px-12">
         <div class="information py-8 px-4 mx-auto container sm:py-16 lg:px-6">
-          <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900">{{ .title }}</h2>
+          <a name="informatie_anchor">
+            <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900">{{ .title }}</h2>
+          </a>
 
           <div class="grid md:gap-8 md:grid-cols-2">
             {{ range .items }}
@@ -178,7 +182,7 @@
       </div>
     </section>
     {{ end }}
-    <!-- Projects-->
+    <!-- Over ons-->
     {{ with site.Data.homepage.club }}
     <div class="bg-gray-100 brushed pt-144 -mx-40 -mt-20 -mb-128">&nbsp;</div>
     <section class="bg-gray-100 relative z-10" id="over_ons">
