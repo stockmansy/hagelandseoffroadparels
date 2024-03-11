@@ -7,7 +7,7 @@ main:
     title: |
       A.C. Hagelandse 
       Off-Road Parels
-    description : "Nieuwe Editie 26-06-2024"
+    description : "Nieuwe Editie 23-06-2024"
 
 # About
 about:
@@ -27,12 +27,12 @@ about:
 currentedition:
   title: "**2024 Editie** Waanrode"
   register:
-    date: "26 Juni 2024"
+    date: "23 Juni 2024"
     title: "Inschrijving"
-    description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 26 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving **ter plaatse** aan de democratische prijs van **6 euro** (1 bevoorrading) of **8 euro** (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.** Betalen kan ook via payconiq. **GRATIS deelname -15 jaar** (°2009 en later) + een geschenk(je)."
+    description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 23 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving **ter plaatse** aan de democratische prijs van **6 euro** (1 bevoorrading) of **8 euro** (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.** Betalen kan ook via payconiq. **GRATIS deelname -15 jaar** (°2009 en later) + een geschenk(je)."
     place: "KORTENAKEN FIT & MOVE voetbalveld SK Waanrode, Gps: Steenbergstraat, 3470 KORTENAKEN"
   reasons:
-    title: "Redenen waarom je er zondag 26 juni 2024 zeker bij moet zijn."
+    title: "Redenen waarom je er zondag 23 juni 2024 zeker bij moet zijn."
     description: |
       1.	Mooie afwisselende routes samengesteld door MTB pioniers uit de streek.
       2.	Democratisch inschrijfgeld en gratis voor -15 jaar (° 2009 en later) + een geschenk(je).
@@ -90,7 +90,7 @@ information:
   title: "Informatie"
   items:
     - title: "Inschrijving"
-      description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 26 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving **ter plaatse** aan de democratische prijs van **6 euro** (1 bevoorrading) of **8 euro** (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.** Betalen kan ook via payconiq. **GRATIS deelname -15 jaar** (°2009 en later) + een geschenk(je)."
+      description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 23 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving **ter plaatse** aan de democratische prijs van **6 euro** (1 bevoorrading) of **8 euro** (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.** Betalen kan ook via payconiq. **GRATIS deelname -15 jaar** (°2009 en later) + een geschenk(je)."
     - title: "Bevoorrading(en)"
       description: "Op bevoorradingen is er een **ruim aanbod** drank (water en energydrank) en voeding (bananen, suikerwafels, appelsienen, peperkoek). Help de afvalberg verminderen en sorteer het achtergelaten vuil in de voorziene vuilbakken. Om ecologische redenen is het ook aangeraden om je **drinkfles te her vullen** en daarom zal het gebruik van drinkbekers beperkt zijn!"
     - title: "Bij finish - Douches"
