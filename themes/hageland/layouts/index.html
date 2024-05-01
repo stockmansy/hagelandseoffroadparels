@@ -86,10 +86,41 @@
         </div>
       </div>
     </section>
+    {{ end }}
     <div class="bg-gray-100 brushed pt-144 -mx-40">&nbsp;</div>
+    <!-- Previous edition-->
+    {{ with site.Data.homepage.previousedition }}
+    <section class="bg-gray-100 pb-20 -mt-128 relative z-20" id="vorige_editie">
+      <div class="container mx-auto px-4 lg:px-12">
+        <div class="pb-12">
+          <div class="container mx-auto px-4 lg:px-12 grid md:gap-16 md:grid-cols-2 pt-16">
+            <div>
+              <div class="pt-8">
+                <h2>{{ .date }}</h2>
+                <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .title }}</h2>
+                <p>{{ $.Page.RenderString .description }}</p>
+              </div>
+              <div class="brushed bg-base-accent text-center mt-4 p-14 text-2xl font-extrabold mb-12">
+                <a href="{{ .link }}" target="_blank">{{ .linktext }}</a>
+              </div>
+            </div>
+            <div>
+              <picture>
+                {{ $image := resources.Get "images/previous-edition.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
+                <source srcset="{{ $mediumwebp.RelPermalink }}" type="image/webp" />
+                <source srcset="{{ $medium.RelPermalink }}" type="image/jpeg" />
+                <img src="{{ $medium.RelPermalink }}" alt="Previous Edition" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ end }}
+    <div class="bg-white brushed pt-144 -mt-20 -mx-40 z-20">&nbsp;</div>
     <!-- Distances-->
     {{ with site.Data.homepage.dinstancegroup }}
-    <section class="bg-gray-100 -mt-128 relative z-20" id="afstanden">
+    <section class="bg-white -mt-128 relative z-30" id="afstanden">
       <div class="container mx-auto px-4 lg:px-12">
         <div class="relative z-20">
           <h2 class="text-4xl tracking-tight font-extrabold text-gray-900">{{ .title }}</h2>
@@ -147,16 +178,13 @@
       </div>
     </section>
     {{ end }}
-    <div class="bg-gray-100 brushed pt-144 -mx-40 -mt-128 -mb-80 relative z-10">&nbsp;</div>
-    {{ end }}
+    <div class="bg-white brushed pt-144 -mx-40 -mt-128 -mb-80 relative z-10">&nbsp;</div>
     <!-- Information-->
     {{ with site.Data.homepage.information }}
     <section class="relative z-1 pt-60 pb-12" id="informatie">
-      <div class="pt-16 container mx-auto px-4 lg:px-12">
+      <div class="pt-16 container mx-auto px-4 lg:px-12" id="informatie_anchor">
         <div class="information py-8 px-4 mx-auto container sm:py-16 lg:px-6">
-          <a name="informatie_anchor">
-            <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900">{{ .title }}</h2>
-          </a>
+          <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900">{{ .title }}</h2>
 
           <div class="grid md:gap-8 md:grid-cols-2">
             {{ range .items }}

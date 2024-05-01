@@ -6,7 +6,7 @@ description = "A website made for family by Yannick Stockmans"
 homepage = "https://www.hagelandseoffroadparels.be"
 tags = ["sport", "bike", "belgium"]
 features = ["responsive"]
-min_version = "1.0.0"
+min_version = "0.121.2"
 
 [author]
   name = "Yannick Stockmans"

@@ -614,6 +614,10 @@ video {
   z-index: 20;
 }
 
+.z-30 {
+  z-index: 30;
+}
+
 .z-40 {
   z-index: 40;
 }
@@ -1417,7 +1421,7 @@ h1 {
     transition: none;
     /* padding: 2rem 1.5rem; */
     color: rgba(255, 255, 255, 0.9);
-    font-size: 22px;
+    font-size: 17px;
   }
 
   #mainNav .nav-link:hover {
@@ -1454,6 +1458,12 @@ h1 {
     color: rgb(255, 255, 61);
     outline: none;
     border-bottom: 0.25rem solid rgb(255, 255, 61);
+  }
+}
+
+@media (min-width: 1400px) {
+  #mainNav .nav-link {
+    font-size: 22px;
   }
 }
 
@@ -1875,8 +1885,8 @@ h2,
     place-content: end;
   }
 
-  .xl\:pl-12 {
-    padding-left: 3rem;
+  .xl\:pl-10 {
+    padding-left: 2.5rem;
   }
 
   .xl\:text-4xl {
@@ -1889,5 +1899,9 @@ h2,
   .\32xl\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .\32xl\:pl-12 {
+    padding-left: 3rem;
   }
 }
