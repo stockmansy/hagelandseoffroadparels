@@ -7,7 +7,7 @@ main:
     title: |
       A.C. Hagelandse 
       Off-Road Parels
-    description : "Nieuwe Editie 23-06-2024"
+    description : "Laatste Editie 23-06-2024"
 
 # About
 about:
@@ -26,6 +26,11 @@ about:
 
 currentedition:
   title: "**2024 Editie** Waanrode"
+  lastdetails:
+    title: "A.C. Off-Road Parels haalde ook de VRT!"
+    olddetails: |
+      Bedankt aan alle deelnemers en iedereen die meegeholpen heeft!      
+      Details van de 2024 editie kan u nog hieronder terugvinden.
   register:
     date: "23 Juni 2024"
     title: "Inschrijving"
