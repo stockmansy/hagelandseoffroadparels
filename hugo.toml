@@ -20,24 +20,14 @@ URL = "#welkom"
 weight = 1
 
 [[menu.main]]
-name = "2024 editie"
+name = "2025 editie"
 URL = "#huidige_editie"
 weight = 2
 
 [[menu.main]]
-name = "Vorige editie"
+name = "Vorige edities"
 URL = "#vorige_editie"
 weight = 3
-
-[[menu.main]]
-name = "Afstanden"
-URL = "#afstanden"
-weight = 4
-
-[[menu.main]]
-name = "Informatie"
-URL = "#informatie_anchor"
-weight = 5
 
 [[menu.main]]
 name = "Over ons"

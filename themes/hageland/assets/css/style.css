@@ -646,6 +646,11 @@ video {
   margin-bottom: 0px;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -654,11 +659,6 @@ video {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .-mb-128 {
@@ -735,6 +735,46 @@ video {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-128 {
+  margin-bottom: 32rem;
+}
+
+.-mt-10 {
+  margin-top: -2.5rem;
+}
+
+.-mt-8 {
+  margin-top: -2rem;
+}
+
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-128 {
+  margin-top: 32rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-52 {
+  margin-top: 13rem;
+}
+
+.-mt-144 {
+  margin-top: -36rem;
 }
 
 .block {
@@ -863,6 +903,10 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1063,6 +1107,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1129,6 +1178,14 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-80 {
+  padding-top: 20rem;
 }
 
 .text-left {
@@ -1777,6 +1834,11 @@ h2,
     font-size: 3.75rem;
     line-height: 1;
   }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1866,6 +1928,11 @@ h2,
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .lg\:text-center {

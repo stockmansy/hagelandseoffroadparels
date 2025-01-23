@@ -7,13 +7,13 @@ main:
     title: |
       A.C. Hagelandse 
       Off-Road Parels
-    description : "Laatste Editie 23-06-2024"
+    description: "Nieuwe Editie 21 juni 2025"
 
 # About
 about:
   title: "Welkom"
   description: |
-    Welkom op de tweede editie van de A.C. Parels.  die je meeneemt op een onvergetelijke gravelrit door het prachtige Hageland. Deze rit, georganiseerd door gepassioneerde off-road bikers , belooft een dag vol uitdaging en vooral mooie vergezichten.
+    Welkom op de derde editie van de A.C. Parels. die je meeneemt op een onvergetelijke gravelrit door het prachtige Hageland. Deze rit, georganiseerd door gepassioneerde off-road bikers, belooft een dag vol uitdaging en vooral mooie vergezichten.
 
     A.C. (André Coppers) dé MTB pionier van het Hageland neemt je mee op zijn geliefkoosde MTB paadjes en gravel wegeltjes. Een vleugje kassei zorgt voor wat afwisseling. Afwisselende ondergronden, wisselende landschappen, pittige heuvels en vlakkere stukjes, akkerbouw en fruitplantages, valleien en plateau’s, holle wegen en vergezichten… je zal het allemaal kunnen ontdekken.
 
@@ -33,9 +33,11 @@ currentedition:
       Details van de 2024 editie kan u nog hieronder terugvinden.
   register:
     date: "23 Juni 2024"
-    title: "Inschrijving"
+    title: "Locatie"
     description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 23 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving **ter plaatse** aan de democratische prijs van **6 euro** (1 bevoorrading) of **8 euro** (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.** Betalen kan ook via payconiq. **GRATIS deelname -15 jaar** (°2009 en later) + een geschenk(je)."
-    place: "KORTENAKEN FIT & MOVE voetbalveld SK Waanrode, Gps: Steenbergstraat, 3470 KORTENAKEN"
+    place: |
+      **SK Waanrode**
+      Gps: Steenbergstraat, 3470 KORTENAKEN
   reasons:
     title: "Redenen waarom je er zondag 23 juni 2024 zeker bij moet zijn."
     description: |
@@ -49,10 +51,25 @@ currentedition:
       8.	DE off-road streek van Vlaanderen. Het heuvelachtige Hageland en zijn licht glooiende uitlopers naar het Haspengouw.
 
 previousedition:
-  title: "Vorige Editie"
+  lasttitle: "2024 Editie"
+  lastdescription: |
+    **A.C. Off-Road Parels haalde ook de VRT!**
+
+    Bedankt aan alle deelnemers en iedereen die meegeholpen heeft!
+  title: "2023 Editie"
   description: "De eerste editie van de A.C. Hagelandse Off-Road Parels was een groot succes. Met bijna 600 enthousiaste deelnemers hebben we al het mogelijke gedaan om jullie optimaal te laten genieten van het mooie Hageland en de uitlopers richting Haspengouw. Bekijk hier de foto's van de eerste editie."
-  link: 'https://photos.google.com/share/AF1QipNqT_S1tHZzRD0XNouEpBXovuCGKnqumKIJiBeAQrSwQPIaJwyGKeaDgrKE_jBhZA?key=QkU5MTh3bm53Z3NibHY3dlVBUi1JeFZ0MGFIUlFR'
+  link: "https://photos.google.com/share/AF1QipNqT_S1tHZzRD0XNouEpBXovuCGKnqumKIJiBeAQrSwQPIaJwyGKeaDgrKE_jBhZA?key=QkU5MTh3bm53Z3NibHY3dlVBUi1JeFZ0MGFIUlFR"
   linktext: "Bekijk de foto's"
+
+newinfo:
+  title: "Informatie nieuwe editie 2025"
+  description: |
+    De nieuwe editie van de A.C. Hagelandse Off-Road Parels zal plaatsvinden op zondag 21 juni 2025.
+
+    Voor meer informatie kunnen jullie gaan naar de website: https://www.go4cycling.com/nl/product/a-c-hagelandse-parels/
+  contacttitle: "Contactpersonen"
+  contactgravel: "Info GRAVEL & MTB: André Coppers +32 498 45 57 16"
+  contactcyclotochten: "Info voor Cyclotochten: Nico Ruyloft +32 496 40 42 89"
 
 dinstancegroup:
   title: Afstanden
@@ -64,7 +81,7 @@ dinstancegroup:
     - title: "35 km Route"
       description: |
         De 35 km route is eigenlijk het **centrale deel** van de tocht. Al het moois van het Hageland zit hierin gebundeld inclusief enkele pittige klimmen tot 15% stijging. Hier vinden we een hoger mountainbike gehalte.    
-        
+
         Waanrode-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Waanrode
       supply: 1
       height: 320
@@ -72,7 +89,7 @@ dinstancegroup:
     - title: "54 km Route"
       description: |
         De 54 km is volgt de 35 km met een **uitbreiding noordelijke** richting.  (Diest). De bijkomende lus is een variatie van gravel/MTB met een paar steile kuitenbijters. Geniet op deze lus vooral van het aangeboden landschap.
-        
+
         Waanrode-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Webbekom-Diest-Kaggevinne-Scherpenheuvel-Assent-Rijnrode-Waanrode
       supply: 1
       height: 460
@@ -80,7 +97,7 @@ dinstancegroup:
     - title: "68 km Route"
       description: |
         De 68 km is een combinatie van de 57 km en de 35 km. De **zuidelijke** lus (richting Tienen) en de centrale lus zorgen voor een perfecte combinatie tussen gravel en MTB. Beginnen doen we met het vlakkere deel Gete vallei, Velpe vallei  maar na 30 km komen de typische Hagelandse hellingen. De noordelijke lus (richting Diest) zit niet in deze route.
-        
+
         Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Webbekom-Diest-Kaggevinne-Scherpenheuvel-Assent-Rijnrode-Waanrode
       supply: 2
       height: 500
@@ -88,7 +105,7 @@ dinstancegroup:
     - title: "87 km Route"
       description: |
         De 87 km een aaneensluiting van **alle** hierboven aangehaalde lussen. Volgt zowel de zuidelijke lus richting Tienen (deze lus heeft een hoog gravelgehalte) als de noordelijke lus richting Diest. Het doorzettingsvermogen zal hier zeker worden aangesproken maar ruimschoots gecompenseerd met adembenemende vergezichten.
-        
+
         Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom Kortenaken-Loksbergen-Rijnrode-Waanrode
       supply: 2
       height: 620
@@ -120,22 +137,21 @@ information:
         -laten geen vuil achter. 
         -respecteren de verkeersregels.
 
-
-club: 
+club:
   title: "Sportclub Fit & Move Kortenaken."
   description: "Leden van de club kunnen volgende sportbedrijvigheden beoefenen op recreatieve basis: fietsen en alle voorbereidende sporten zoals zwemmen, joggen, turnen, fitness. Maar de hoofdactiviteit is en blijft het off-road fietsen. De club is erkend als sportclub door de gemeente Kortenaken en door de provincie Vlaams-Brabant. Na de eerste editie in 2023 (met bijna 600 enthousiaste deelnemers) zullen we al het mogelijke doen om jullie optimaal te laten genieten van het mooie Hageland en de uitlopers richting Haspengouw."
   btn: "Contact"
 
 contact:
   title: "Onze contactgevens"
-  address: 
+  address:
     title: "Adres / Locatie"
     description: "KORTENAKEN FIT & MOVE voetbalveld SK Waanrode, Gps: Steenbergstraat, 3470 KORTENAKEN"
-  email: 
+  email:
     title: "Email"
     description: "&#x61;&#x6e;&#x64;&#x72;&#x65;&#x2e;&#x63;&#x6f;&#x70;&#x70;"
     descriptionpart2: "&#x65;&#x72;&#x73;&#x40;&#x74;&#x65;&#x6c;&#x65;&#x6e;&#x65;&#x74;&#x2e;&#x62;&#x65;"
-  cellphone: 
+  cellphone:
     title: "Gsm"
     description: "0498 45 "
     descriptionpart2: "57 16"
