@@ -11,13 +11,22 @@ main:
 
 # About
 about:
-  title: "Welkom"
+  title: "ABUS – A.C. Hagelandse Parels"
+  subtitle: "zaterdag 21 juni 2025"
   description: |
-    Welkom op de derde editie van de A.C. Parels. die je meeneemt op een onvergetelijke gravelrit door het prachtige Hageland. Deze rit, georganiseerd door gepassioneerde off-road bikers, belooft een dag vol uitdaging en vooral mooie vergezichten.
+    **Nieuw concept voor de derde editie van de A.C. Hagelandse Off-road Parels!**
+    Voor deze derde editie is er een bijzondere samenwerkingsakkoord tot stand gekomen tussen:
+    - **Voetbalclub SK Waanrode**, die hun accommodatie ter beschikking stellen en de parkeergelegenheid in goede banen zullen leiden.
+    - **Recreaclub Fit & Move Kortenaken**, die verantwoordelijk zijn voor het off-road gedeelte. Zij bieden zowel een uitdagend MTB-parcours als een (grotendeels) gescheiden GRAVEL-route aan.
+    - **Go4Cycling**, die zorgt voor een breed aanbod aan uitgepijlde wegroutes.
+    Het vernieuwde event heeft een passende nieuwe naam gekregen: "**Abus – A.C. Hagelandse Parels.**"
 
-    A.C. (André Coppers) dé MTB pionier van het Hageland neemt je mee op zijn geliefkoosde MTB paadjes en gravel wegeltjes. Een vleugje kassei zorgt voor wat afwisseling. Afwisselende ondergronden, wisselende landschappen, pittige heuvels en vlakkere stukjes, akkerbouw en fruitplantages, valleien en plateau’s, holle wegen en vergezichten… je zal het allemaal kunnen ontdekken.
+    Dankzij dit nieuwe concept is er voor iedere fietser en elke fietssoort een geschikt aanbod. Of je nu jong of oud bent, getraind of recreatief fietst, of je een wegfiets, gravelfiets, cyclocrossfiets, mountainbike of elektrische fiets gebruikt: iedereen vindt een route die bij hem of haar past.
 
-    De tochten zijn geschikt voor zowel gravel fietsen als mountainbikes. Een groot aanbod van afstanden en hoogtemeters zorgen er zeker voor dat iedereen de geschikte uitdaging zal kunnen vinden aangepast aan ieders niveau.
+    Het doel van alle routes blijft hetzelfde: **genieten van de veelzijdigheid en schoonheid van het Hageland.** De routes leiden je door wisselende landschappen met pittige heuvels, langs akkers en fruitplantages, door valleien en over plateaus, door holle wegen en open velden, met als hoogtepunt adembenemende panoramische uitzichten.
+
+    Iedereen is welkom om dit unieke evenement mee te beleven!
+
   button:
     enable: true
     text: "Button"
@@ -32,7 +41,7 @@ currentedition:
       Bedankt aan alle deelnemers en iedereen die meegeholpen heeft!      
       Details van de 2024 editie kan u nog hieronder terugvinden.
   register:
-    date: "23 Juni 2024"
+    date: "Zaterdag 21 juni 2025"
     title: "Locatie"
     description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 23 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving **ter plaatse** aan de democratische prijs van **6 euro** (1 bevoorrading) of **8 euro** (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.** Betalen kan ook via payconiq. **GRATIS deelname -15 jaar** (°2009 en later) + een geschenk(je)."
     place: |
@@ -52,9 +61,9 @@ currentedition:
 
 previousedition:
   lasttitle: "2024 Editie"
-  lastdescription: |
+  lastsubtitle: |
     **A.C. Off-Road Parels haalde ook de VRT!**
-
+  lastdescription: |
     Bedankt aan alle deelnemers en iedereen die meegeholpen heeft!
   title: "2023 Editie"
   description: "De eerste editie van de A.C. Hagelandse Off-Road Parels was een groot succes. Met bijna 600 enthousiaste deelnemers hebben we al het mogelijke gedaan om jullie optimaal te laten genieten van het mooie Hageland en de uitlopers richting Haspengouw. Bekijk hier de foto's van de eerste editie."
@@ -67,16 +76,117 @@ newinfo:
     De nieuwe editie van de A.C. Hagelandse Off-Road Parels zal plaatsvinden op zondag 21 juni 2025.
 
     Voor meer informatie kunnen jullie gaan naar de website: https://www.go4cycling.com/nl/product/a-c-hagelandse-parels/
+  sitego4cyclingtitle: "Website Go4Cycling"
+  sitego4cycling: "https://www.go4cycling.com/nl/product/a-c-hagelandse-parels/"
   contacttitle: "Contactpersonen"
   contactgravel: "Info GRAVEL & MTB: André Coppers +32 498 45 57 16"
   contactcyclotochten: "Info voor Cyclotochten: Nico Ruyloft +32 496 40 42 89"
+  register:
+    date: "Zaterdag 21 juni 2025"
+    title: "Locatie"
+    titleprice: "Prijs en informatie"
+    description: |
+      **SK Waanrode**\
+      Steenbergstraat 1-9, 3473 Kortenaken
+
+      **Parking:**\
+      Er is parkeergelegenheid op het terrein.
+
+      **Drankbenodigdheden:**\
+      Natuurlijk moet je bij aankomst weer vocht binnenkrijgen. We zorgen voor bier en frisdrank en een terras waar je gezellig kunt kletsen.
+
+      **Overige faciliteiten:**\
+      Toilet, kleedkamers en douche
+
+    descriptionprice: |
+      Wil je deelnemen aan de ABUS – A.C. Hagelandse Parels? Kom dan op zaterdag 21 juni naar de Voetbalvelden van S.K. Waanrode.\
+      Inschrijving voor de **MTB & Gravel** routes kost **6 euro**, voor de **Weg** route van **40km** **4 euro** en voor de andere **Weg** routes **7 euro**.\
+      Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.**
+    place: |
+      **SK Waanrode**\
+      Gps: Steenbergstraat, 3470 KORTENAKEN
 
 dinstancegroup:
   title: Afstanden
   description: |
-    Voor de A.C. Hagelandse Off-Road Parels hebben we verschillende afstanden om aan ieders behoeften te voldoen. Of je nu graag een korte en intensieve rit wilt maken of liever wat langer op de fiets zit, er is een afstand die perfect bij jou past. Bovendien kan je je gekozen afstand **modulair samenstellen** zodat nog bijkomende afstanden mogelijk zijn. 
+    **Belangrijke punten:**
+    - Alle MTB- en Gravelroutes zijn open van 07:00 tot 10:00, terwijl de 40 km wegrit beschikbaar is tot 11:00.
+    - De 54 km MTB-route en alle wegfietsroutes zijn volledig uitgepijld. Gravelroutes zijn enkel beschikbaar via GPX.
+    - De hoogtemeters en details van de wegfietsroutes worden binnenkort bekendgemaakt.
 
-    De lussen van 35, 54, 68 en 87 km worden volledig bewegwijzerd. Door lussen weg te laten of toe te voegen kan er gekozen worden uit meerdere mogelijke afstanden vanaf 24 kilometer. De lussen die kunnen ingekort worden (totaal 11 km) zijn 2 km / 2 km / 4.5 km / 1 km / 1.5 km met in elke lus een pittige klim.
+    Een mix van uitdagende beklimmingen, glooiend terrein en prachtige landschappen zorgt voor een onvergetelijke ervaring voor elke deelnemer!\
+    \
+    **Deze rit is onderdeel van Cycling Vlaanderen & Fietssport**
+
+  subtitle: Overzicht van Routes voor “Abus - A.C. Hagelandse Parels” zaterdag 21 juni 2025
+  mtb:
+    title: "MTB Routes"
+    extra: |
+      **Modulaire shortcuts:**\
+      Fietsers kunnen bepaalde lussen overslaan om tot 30 km in te korten. Beschikbare shortcuts:
+      - 2 km, 2 km, 4,5 km, 1 km, 1,5 km, 19 km\
+      Elke lus bevat minstens één stevige klim.
+    distances:
+      - title: "24 km Route"
+        description: |
+          Kort en toegankelijk met een gematigde uitdaging.
+        supply: 1
+        height: 250
+        hills: 6
+      - title: "36 km Route"
+        description: |
+          Een langere route met meer beklimmingen, ideaal voor gevorderden.
+        supply: 1
+        height: 370
+        hills: 11
+      - title: "54 km Route"
+        description: |
+          Volledig uitgepijld; perfect voor ervaren fietsers die een uitdaging zoeken.
+        supply: 1
+        height: 620
+        hills: 16
+  gravel:
+    title: "Gravel Routes"
+    distances:
+      - title: "58 km Route"
+        description: |
+          Enkel beschikbaar via GPX; afwisselende route voor gravelrijders.
+        supply: 1
+        height: 400
+        hills: 8
+      - title: "87 km Route"
+        description: |
+          Enkel beschikbaar via GPX; langere route met uitdagende hoogtemeters.
+        supply: 2
+        height: 700
+        hills: 17
+  road:
+    title: "Wegfiets Routes"
+    distances:
+      - title: "40 km Route (Starttijd tot 11:00)"
+        description: |
+          Volledig uitgepijld; ideaal voor recreatieve fietsers of beginners.
+        supply: 0
+        height: TBD
+        hills: TBD
+      - title: "66 km Route"
+        description: |
+          Volledig uitgepijld; uitgebalanceerde route voor gevorderden.
+        supply: 1
+        height: TBD
+        hills: TBD
+      - title: "90 km Route"
+        description: |
+          Volledig uitgepijld; voor fietsers die wat meer uithoudingsvermogen zoeken.
+        supply: 1
+        height: TBD
+        hills: TBD
+      - title: "127 km Route"
+        description: |
+          Volledig uitgepijld; uitdagende langeafstandstocht voor ervaren fietsers.
+        supply: 2
+        height: TBD
+        hills: TBD
   distances:
     - title: "35 km Route"
       description: |
@@ -112,7 +222,7 @@ dinstancegroup:
       hills: 21
   supply: "Bevoorrading"
   height: "Hoogtemeters"
-  hills: "Hellingen"
+  hills: "Klimmen"
 
 information:
   title: "Informatie"

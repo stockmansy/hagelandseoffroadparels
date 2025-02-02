@@ -25,10 +25,10 @@
     <section class="brushed-image -mt-36 pt-40 pb-60 text-center z-10" id="welkom">
       <div class="container mx-auto px-4 lg:px-12">
         <div class="flex flex-wrap gx-4 gx-lg-5 justify-center">
-          <div class="lg:w-2/3 pr-4 pl-4">
-            <h2 class="text-white mb-4 w-full inline-block">{{ .title }}</h2>
-            {{ $content := replace .description "\n" "<br />" | safeHTML }}
-            <p class="text-white text-xl">{{ $content }}</p>
+          <div class="lg:w-4/5 pr-4 pl-4 text-white text-left">
+            <h2 class="block w-full max-w-full">{{ .title }}</h2>
+            <h4 class="mb-4 w-full">{{ .subtitle }}</h4>
+            {{ $.Page.RenderString .description }}
           </div>
         </div>
       </div>
@@ -37,15 +37,50 @@
     <!-- Current edition-->
     {{ with site.Data.homepage.newinfo}}
     <section class="bg-white pb-8 -mt-44 z-10" id="huidige_editie">
-      <div class="container mx-auto mt-52 px-4 lg:px-12 grid md:grid-cols-2 gap-8">
+      <div class="container mx-auto px-4 lg:px-12 grid md:gap-16 md:grid-cols-2 pt-52">
+        <div class="relative z-20">
+          <h2 class="text-4xl tracking-tight font-extrabold text-gray-900">{{ .title }}</h2>
+        </div>
+        <div></div>
+        <div class="relative overflow-hidden">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.3231129445203!2d4.995012377559897!3d50.917739653607114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1403d0f3fb00b%3A0xc126dece8a7ccdb9!2sSK%20Waanrode!5e0!3m2!1sen!2sbe!4v1707330273229!5m2!1sen!2sbe"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="border-2 min-h-56 h-full w-full object-cover object-top relative z-10"
+            title="Google maps"
+          ></iframe>
+          <picture class="absolute top-0">
+            {{ $image := resources.Get "images/waanrode.jpg" }} {{ $mediumW := $image.Resize "430x" }} {{ $mediumWwebp := $image.Resize "430x webp" }}
+            <source srcset="{{ $mediumWwebp.RelPermalink }}" type="image/webp" />
+            <source srcset="{{ $mediumW.RelPermalink }}" type="image/jpeg" />
+            <img src="{{ $mediumW.RelPermalink }}" class="object-cover" alt="Waanrode" />
+          </picture>
+        </div>
+        <div>
+          <div class="pt-8">
+            <h2>{{ .register.date }}</h2>
+            <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .register.title }}</h2>
+            <p>{{ $.Page.RenderString .register.description }}</p>
+          </div>
+          <div class="brushed bg-base-accent mt-4 p-14 font-extrabold mb-12">{{ $.Page.RenderString .register.place }}</div>
+        </div>
+      </div>
+
+      <div class="container mx-auto mt-12 px-4 lg:px-12 grid md:grid-cols-2 gap-8">
         <div>
           <div class="relative z-20">
-            <h2 class="text-4xl tracking-tight font-extrabold text-gray-900">{{ .title }}</h2>
+            <h2 class="text-4xl tracking-tight font-extrabold text-gray-900">{{ $.Page.RenderString .register.titleprice }}</h2>
           </div>
           <div class="pt-4">
-            <p>{{ $.Page.RenderString .description }}</p>
+            <p>{{ $.Page.RenderString .register.descriptionprice }}</p>
             <h3 class="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">{{ .contacttitle }}</h3>
-            <p>{{ $.Page.RenderString .contactgravel }}<br />{{ $.Page.RenderString .contactcyclotochten }}</p>
+            <p class="mt-4">{{ $.Page.RenderString .contactgravel }}<br />{{ $.Page.RenderString .contactcyclotochten }}</p>
+            <h3 class="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">{{ .sitego4cyclingtitle }}</h3>
+            <p class="mt-4">{{ $.Page.RenderString .sitego4cycling }}</p>
           </div>
         </div>
         <div>
@@ -55,6 +90,170 @@
             <source srcset="{{ $medium.RelPermalink }}" type="image/jpeg" />
             <img src="{{ $medium.RelPermalink }}" alt="Redenen" />
           </picture>
+        </div>
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- Distances-->
+    {{ with site.Data.homepage.dinstancegroup }}
+    <section class="bg-white relative z-30" id="afstanden">
+      <div class="container mx-auto px-4 lg:px-12">
+        <div class="relative z-20">
+          <h2 class="text-4xl tracking-tight font-extrabold text-gray-900">{{ .title }}</h2>
+        </div>
+        <div class="pt-4">{{ $.Page.RenderString .description }}</div>
+        <br />
+        <h4>{{ $.Page.RenderString .mtb.title }}</h4>
+        <div class="py-12 grid md:gap-12 md:grid-cols-2">
+          {{ range site.Data.homepage.dinstancegroup.mtb.distances }}
+          <div class="shadowy flex flex-col brushed4 distance p-6">
+            <div class="p-6 pb-2 flex flex-1 flex-col">
+              <header class="pb-2 border-b">
+                <h3 class="inline-flex items-baseline pb-4 text-2xl">
+                  <span>{{ .title }}</span>
+                </h3>
+              </header>
+              <div class="my-6">{{ $.Page.RenderString .description }}</div>
+              <footer class="py-6 mt-auto grid xl:grap-2 xl:grid-cols-3 border-t">
+                <div class="inline-flex items-center xl:place-content-start whitespace-nowrap">
+                  <span class="w-8 lg:w-6 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon pr-4">
+                      <path d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375Z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="m3.087 9 .54 9.176A3 3 0 0 0 6.62 21h10.757a3 3 0 0 0 2.995-2.824L20.913 9H3.087Zm6.163 3.75A.75.75 0 0 1 10 12h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                  <span>{{ site.Data.homepage.dinstancegroup.supply }}: {{ .supply }}</span>
+                </div>
+                <div class="inline-flex items-center xl:place-content-center whitespace-nowrap">
+                  <span class="w-8 lg:w-6 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor" class="icon pr-4">
+                      <path d="M720-480v-168l-64 64-56-56 160-160 160 160-56 57-64-64v167h-80ZM40-80l240-320 180 240h300L560-426 460-294l-50-66 150-200L920-80H40Zm420-80Z" />
+                    </svg>
+                  </span>
+                  <span>{{ site.Data.homepage.dinstancegroup.height }}: {{ .height }}</span>
+                </div>
+                <div class="inline-flex items-center xl:place-content-end whitespace-nowrap">
+                  <span class="w-8 lg:w-6 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon pr-4">
+                      <path
+                        fill-rule="evenodd"
+                        d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                  <span>{{ site.Data.homepage.dinstancegroup.hills }}: {{ .hills }}</span>
+                </div>
+              </footer>
+            </div>
+          </div>
+          {{ end }}
+          <div>{{ $.Page.RenderString .mtb.extra }}</div>
+        </div>
+        <h4>{{ $.Page.RenderString .gravel.title }}</h4>
+        <div class="py-12 grid md:gap-12 md:grid-cols-2">
+          {{ range site.Data.homepage.dinstancegroup.gravel.distances }}
+          <div class="shadowy flex flex-col brushed4 distance p-6">
+            <div class="p-6 pb-2 flex flex-1 flex-col">
+              <header class="pb-2 border-b">
+                <h3 class="inline-flex items-baseline pb-4 text-2xl">
+                  <span>{{ .title }}</span>
+                </h3>
+              </header>
+              <div class="my-6">{{ $.Page.RenderString .description }}</div>
+              <footer class="py-6 mt-auto grid xl:grap-2 xl:grid-cols-3 border-t">
+                <div class="inline-flex items-center xl:place-content-start whitespace-nowrap">
+                  <span class="w-8 lg:w-6 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon pr-4">
+                      <path d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375Z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="m3.087 9 .54 9.176A3 3 0 0 0 6.62 21h10.757a3 3 0 0 0 2.995-2.824L20.913 9H3.087Zm6.163 3.75A.75.75 0 0 1 10 12h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                  <span>{{ site.Data.homepage.dinstancegroup.supply }}: {{ .supply }}</span>
+                </div>
+                <div class="inline-flex items-center xl:place-content-center whitespace-nowrap">
+                  <span class="w-8 lg:w-6 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor" class="icon pr-4">
+                      <path d="M720-480v-168l-64 64-56-56 160-160 160 160-56 57-64-64v167h-80ZM40-80l240-320 180 240h300L560-426 460-294l-50-66 150-200L920-80H40Zm420-80Z" />
+                    </svg>
+                  </span>
+                  <span>{{ site.Data.homepage.dinstancegroup.height }}: {{ .height }}</span>
+                </div>
+                <div class="inline-flex items-center xl:place-content-end whitespace-nowrap">
+                  <span class="w-8 lg:w-6 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon pr-4">
+                      <path
+                        fill-rule="evenodd"
+                        d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                  <span>{{ site.Data.homepage.dinstancegroup.hills }}: {{ .hills }}</span>
+                </div>
+              </footer>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        <h4>{{ $.Page.RenderString .road.title }}</h4>
+        <div class="py-12 grid md:gap-12 md:grid-cols-2">
+          {{ range site.Data.homepage.dinstancegroup.road.distances }}
+          <div class="shadowy flex flex-col brushed4 distance p-6">
+            <div class="p-6 pb-2 flex flex-1 flex-col">
+              <header class="pb-2 border-b">
+                <h3 class="inline-flex items-baseline pb-4 text-2xl">
+                  <span>{{ .title }}</span>
+                </h3>
+              </header>
+              <div class="my-6">{{ $.Page.RenderString .description }}</div>
+              <footer class="py-6 mt-auto grid xl:grap-2 xl:grid-cols-3 border-t">
+                <div class="inline-flex items-center xl:place-content-start whitespace-nowrap">
+                  <span class="w-8 lg:w-6 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon pr-4">
+                      <path d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375Z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="m3.087 9 .54 9.176A3 3 0 0 0 6.62 21h10.757a3 3 0 0 0 2.995-2.824L20.913 9H3.087Zm6.163 3.75A.75.75 0 0 1 10 12h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                  <span>{{ site.Data.homepage.dinstancegroup.supply }}: {{ .supply }}</span>
+                </div>
+                <div class="inline-flex items-center xl:place-content-center whitespace-nowrap">
+                  <span class="w-8 lg:w-6 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor" class="icon pr-4">
+                      <path d="M720-480v-168l-64 64-56-56 160-160 160 160-56 57-64-64v167h-80ZM40-80l240-320 180 240h300L560-426 460-294l-50-66 150-200L920-80H40Zm420-80Z" />
+                    </svg>
+                  </span>
+                  <span>{{ site.Data.homepage.dinstancegroup.height }}: {{ .height }}</span>
+                </div>
+                <div class="inline-flex items-center xl:place-content-end whitespace-nowrap">
+                  <span class="w-8 lg:w-6 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon pr-4">
+                      <path
+                        fill-rule="evenodd"
+                        d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                  <span>{{ site.Data.homepage.dinstancegroup.hills }}: {{ .hills }}</span>
+                </div>
+              </footer>
+            </div>
+          </div>
+          {{ end }}
         </div>
       </div>
     </section>
@@ -82,12 +281,13 @@
             </picture>
           </div>
           <div class="my-2 py-8 border-y">
-            <h3 class="max-w-full">{{ $.Page.RenderString .lastdescription }}</h3>
+            <h3>{{ $.Page.RenderString .lastsubtitle }}</h3>
+            <div class="mt-4">{{ $.Page.RenderString .lastdescription }}</div>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-white brushed pt-20 -mt-20 -mx-40 z-20">
+    <section class="bg-white brushed pt-20 pb-10 -mt-20 -mx-40 z-20">
       <div class="container mx-auto px-4 lg:px-12" style="max-width: 100vw">
         <div class="pb-12">
           <div class="container mx-auto px-4 lg:px-12 grid md:gap-16 md:grid-cols-2 pt-16">
