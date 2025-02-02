@@ -263,27 +263,25 @@
     {{ with site.Data.homepage.previousedition }}
     <section class="bg-gray-100 pb-20 -mt-128 relative z-20" id="vorige_editie">
       <div class="container mx-auto px-4 lg:px-12 pt-2">
-        <div class="px-12">
-          <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .lasttitle }}</h2>
-          <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .lastdetails.title }}</h2>
-          <div class="grid md:gap-16 md:grid-cols-2">
-            <picture>
-              {{ $image := resources.Get "images/vrt-1.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
-              <source srcset="{{ $mediumwebp.RelPermalink }}" type="image/webp" />
-              <source srcset="{{ $medium.RelPermalink }}" type="image/jpeg" />
-              <img src="{{ $medium.RelPermalink }}" alt="Redenen" />
-            </picture>
-            <picture>
-              {{ $image := resources.Get "images/vrt-2.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
-              <source srcset="{{ $mediumwebp.RelPermalink }}" type="image/webp" />
-              <source srcset="{{ $medium.RelPermalink }}" type="image/jpeg" />
-              <img src="{{ $medium.RelPermalink }}" alt="Redenen" />
-            </picture>
-          </div>
-          <div class="my-2 py-8 border-y">
-            <h3>{{ $.Page.RenderString .lastsubtitle }}</h3>
-            <div class="mt-4">{{ $.Page.RenderString .lastdescription }}</div>
-          </div>
+        <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .lasttitle }}</h2>
+        <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .lastdetails.title }}</h2>
+        <div class="grid md:gap-16 md:grid-cols-2">
+          <picture>
+            {{ $image := resources.Get "images/vrt-1.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
+            <source srcset="{{ $mediumwebp.RelPermalink }}" type="image/webp" />
+            <source srcset="{{ $medium.RelPermalink }}" type="image/jpeg" />
+            <img src="{{ $medium.RelPermalink }}" alt="Redenen" />
+          </picture>
+          <picture>
+            {{ $image := resources.Get "images/vrt-2.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
+            <source srcset="{{ $mediumwebp.RelPermalink }}" type="image/webp" />
+            <source srcset="{{ $medium.RelPermalink }}" type="image/jpeg" />
+            <img src="{{ $medium.RelPermalink }}" alt="Redenen" />
+          </picture>
+        </div>
+        <div class="my-2 py-8 border-y">
+          <h3>{{ $.Page.RenderString .lastsubtitle }}</h3>
+          <div class="mt-4">{{ $.Page.RenderString .lastdescription }}</div>
         </div>
       </div>
     </section>
