@@ -44,7 +44,7 @@
         <div></div>
         <div class="relative overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.3231129445203!2d4.995012377559897!3d50.917739653607114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1403d0f3fb00b%3A0xc126dece8a7ccdb9!2sSK%20Waanrode!5e0!3m2!1sen!2sbe!4v1707330273229!5m2!1sen!2sbe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.523609006574!2d5.001066777319662!3d50.914030371684554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c14019ba6e0af1%3A0xb0a72007758cf986!2sGrote%20Vreunte%2057%2C%203473%20Kortenaken!5e0!3m2!1sen!2sbe!4v1764869676185!5m2!1sen!2sbe"
             width="600"
             height="450"
             allowfullscreen=""
@@ -264,19 +264,18 @@
     <section class="bg-gray-100 pb-20 -mt-128 relative z-20" id="vorige_editie">
       <div class="container mx-auto px-4 lg:px-12 pt-2">
         <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .lasttitle }}</h2>
-        <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .lastdetails.title }}</h2>
         <div class="grid md:gap-16 md:grid-cols-2">
           <picture>
-            {{ $image := resources.Get "images/vrt-1.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
+            {{ $image := resources.Get "images/2025-1.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
             <source srcset="{{ $mediumwebp.RelPermalink }}" type="image/webp" />
             <source srcset="{{ $medium.RelPermalink }}" type="image/jpeg" />
-            <img src="{{ $medium.RelPermalink }}" alt="Redenen" />
+            <img src="{{ $medium.RelPermalink }}" alt="2025 Editie - Hageland" />
           </picture>
           <picture>
-            {{ $image := resources.Get "images/vrt-2.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
+            {{ $image := resources.Get "images/2025-2.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
             <source srcset="{{ $mediumwebp.RelPermalink }}" type="image/webp" />
             <source srcset="{{ $medium.RelPermalink }}" type="image/jpeg" />
-            <img src="{{ $medium.RelPermalink }}" alt="Redenen" />
+            <img src="{{ $medium.RelPermalink }}" alt="2025 Editie - Bloesems" />
           </picture>
         </div>
         <div class="my-2 py-8 border-y">
@@ -285,6 +284,32 @@
         </div>
       </div>
     </section>
+    <!-- 2024 Edition -->
+    {{ with .edition2024 }}
+    <section class="bg-gray-100 pb-20 relative z-20" id="editie_2024">
+      <div class="container mx-auto px-4 lg:px-12 pt-2">
+        <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .title }}</h2>
+        <div class="grid md:gap-16 md:grid-cols-2">
+          <picture>
+            {{ $image := resources.Get "images/vrt-1.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
+            <source srcset="{{ $mediumwebp.RelPermalink }}" type="image/webp" />
+            <source srcset="{{ $medium.RelPermalink }}" type="image/jpeg" />
+            <img src="{{ $medium.RelPermalink }}" alt="2024 Editie" />
+          </picture>
+          <picture>
+            {{ $image := resources.Get "images/vrt-2.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
+            <source srcset="{{ $mediumwebp.RelPermalink }}" type="image/webp" />
+            <source srcset="{{ $medium.RelPermalink }}" type="image/jpeg" />
+            <img src="{{ $medium.RelPermalink }}" alt="2024 Editie" />
+          </picture>
+        </div>
+        <div class="my-2 py-8 border-y">
+          <h3>{{ $.Page.RenderString .subtitle }}</h3>
+          <div class="mt-4">{{ $.Page.RenderString .description }}</div>
+        </div>
+      </div>
+    </section>
+    {{ end }}
     <section class="bg-white brushed pt-20 pb-10 -mt-20 -mx-40 z-20">
       <div class="container mx-auto px-4 lg:px-12" style="max-width: 100vw">
         <div class="pb-12">

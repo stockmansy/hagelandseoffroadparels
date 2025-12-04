@@ -7,25 +7,24 @@ main:
     title: |
       A.C. Hagelandse 
       Off-Road Parels
-    description: "Nieuwe Editie 21 juni 2025"
+    description: "4de Editie 3 mei 2026"
 
 # About
 about:
-  title: "ABUS – A.C. Hagelandse Parels"
-  subtitle: "zaterdag 21 juni 2025"
+  title: "A.C. Hagelandse Off-Road Parels"
+  subtitle: "zondag 3 mei 2026 - in de bloesems"
   description: |
-    **Nieuw concept voor de derde editie van de A.C. Hagelandse Off-road Parels!**
-    Voor deze derde editie is er een bijzondere samenwerkingsakkoord tot stand gekomen tussen:
-    - **Voetbalclub SK Waanrode**, die hun accommodatie ter beschikking stellen en de parkeergelegenheid in goede banen zullen leiden.
-    - **Recreaclub Fit & Move Kortenaken**, die verantwoordelijk zijn voor het off-road gedeelte. Zij bieden zowel een uitdagend MTB-parcours als een (grotendeels) gescheiden GRAVEL-route aan.
-    - **Go4Cycling**, die zorgt voor een breed aanbod aan uitgepijlde wegroutes.
-    Het vernieuwde event heeft een passende nieuwe naam gekregen: "**Abus – A.C. Hagelandse Parels.**"
+    **De vierde editie van de "A.C. Hagelandse Off-Road Parels in de bloesems"!**
 
-    Dankzij dit nieuwe concept is er voor iedere fietser en elke fietssoort een geschikt aanbod. Of je nu jong of oud bent, getraind of recreatief fietst, of je een wegfiets, gravelfiets, cyclocrossfiets, mountainbike of elektrische fiets gebruikt: iedereen vindt een route die bij hem of haar past.
+    Op zondag 3 mei 2026 verwelkomen we jullie opnieuw voor een prachtige off-road belevenis in het Hageland. Hopelijk kunnen we nog genieten van de kleurrijke bloesems van de fruitplantages! Het Hageland op zijn mooist!
 
-    Het doel van alle routes blijft hetzelfde: **genieten van de veelzijdigheid en schoonheid van het Hageland.** De routes leiden je door wisselende landschappen met pittige heuvels, langs akkers en fruitplantages, door valleien en over plateaus, door holle wegen en open velden, met als hoogtepunt adembenemende panoramische uitzichten.
+    Er is geen gescheiden gravel parcours. Gezien het tijdstip van het jaar en de wisselende ondergronden zijn de parcours geschikt voor alle off-road fietsers: **MTB en GRAVEL**.
 
-    Iedereen is welkom om dit unieke evenement mee te beleven!
+    Pittige klimmen afgewisseld met adembenemende vergezichten. **80% off-road** en autoluwe verbindingslusjes. Hellingen tot **16%** en mystieke Hagelandse holle wegen.
+
+    **Nieuwe locatie:** Feestzaal Bergendal, Grote Vreunte 57 te 3473 Kortenaken (Waanrode). In samenwerking met KOTK team Kortenaken.
+
+    📰 **Lees het artikel over onze succesvolle 2025 editie op [Wielerverhaal.com](https://wielerverhaal.com/2025/06/22/wij-waren-onder-de-indruk-van-de-abus-a-c-hagelandse-parels-en-werden-getriggerd-met-iets-nieuws/)**
 
   button:
     enable: true
@@ -34,192 +33,128 @@ about:
   image: "assets/img/Welkom.jpg"
 
 currentedition:
-  title: "**2024 Editie** Waanrode"
+  title: "**2026 Editie** Kortenaken"
   lastdetails:
-    title: "A.C. Off-Road Parels haalde ook de VRT!"
+    title: "Terugblik 2025 - Een succes!"
     olddetails: |
-      Bedankt aan alle deelnemers en iedereen die meegeholpen heeft!      
-      Details van de 2024 editie kan u nog hieronder terugvinden.
+      Onze 2025 editie was een groot succes! Lees het volledige verslag op [Wielerverhaal.com](https://wielerverhaal.com/2025/06/22/wij-waren-onder-de-indruk-van-de-abus-a-c-hagelandse-parels-en-werden-getriggerd-met-iets-nieuws/).
   register:
-    date: "Zaterdag 21 juni 2025"
+    date: "Zondag 3 mei 2026"
     title: "Locatie"
-    description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 23 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving **ter plaatse** aan de democratische prijs van **6 euro** (1 bevoorrading) of **8 euro** (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.** Betalen kan ook via payconiq. **GRATIS deelname -15 jaar** (°2009 en later) + een geschenk(je)."
+    description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 3 mei 2026 naar Feestzaal Bergendal. Inschrijving **ter plaatse** aan democratische prijzen. Zonder vergunning betaal je **2 euro extra voor een dag verzekering.** Kids geboren in 2010 en later **GRATIS** + een geschenkje."
     place: |
-      **SK Waanrode**
-      Gps: Steenbergstraat, 3470 KORTENAKEN
+      **Feestzaal Bergendal**
+      Grote Vreunte 57, 3473 Kortenaken (Waanrode)
   reasons:
-    title: "Redenen waarom je er zondag 23 juni 2024 zeker bij moet zijn."
+    title: "Redenen waarom je er zondag 3 mei 2026 zeker bij moet zijn."
     description: |
       1.	Mooie afwisselende routes samengesteld door MTB pioniers uit de streek.
-      2.	Democratisch inschrijfgeld en gratis voor -15 jaar (° 2009 en later) + een geschenk(je).
+      2.	Democratisch inschrijfgeld en gratis voor kids geboren in 2010 en later + een geschenk(je).
       3.	Uitstekende bevoorradingen.
       4.	Technische bijstand aan de bevoorradingsplaatsen.
-      5.	Vouwvriendelijke organisatie: toiletmogelijkheid op bevoorradingsplaatsen.
-      6.	Ruime keuze van aangeboden afstanden zodat iedereen een keuze kan maken volgens eigen niveau.
+      5.	Vrouwvriendelijke organisatie: toiletmogelijkheid op bevoorradingsplaatsen.
+      6.	Ruime keuze van aangeboden afstanden (21 km tot 75 km) zodat iedereen een keuze kan maken volgens eigen niveau.
       7.	Geschikt voor zowel gravel als mountainbike fietsen.
       8.	DE off-road streek van Vlaanderen. Het heuvelachtige Hageland en zijn licht glooiende uitlopers naar het Haspengouw.
+      9.	Nieuwe locatie: Feestzaal Bergendal met uitstekende faciliteiten.
 
 previousedition:
-  lasttitle: "2024 Editie"
+  lasttitle: "2025 Editie"
   lastsubtitle: |
-    **A.C. Off-Road Parels haalde ook de VRT!**
+    **Onze 2025 editie was een groot succes!**
   lastdescription: |
-    Bedankt aan alle deelnemers en iedereen die meegeholpen heeft!
+    Bedankt aan alle deelnemers en iedereen die meegeholpen heeft! Lees het volledige verslag op [Wielerverhaal.com](https://wielerverhaal.com/2025/06/22/wij-waren-onder-de-indruk-van-de-abus-a-c-hagelandse-parels-en-werden-getriggerd-met-iets-nieuws/).
+  edition2024:
+    title: "2024 Editie"
+    subtitle: |
+      **A.C. Off-Road Parels haalde ook de VRT!**
+    description: |
+      Bedankt aan alle deelnemers en iedereen die meegeholpen heeft!
   title: "2023 Editie"
   description: "De eerste editie van de A.C. Hagelandse Off-Road Parels was een groot succes. Met bijna 600 enthousiaste deelnemers hebben we al het mogelijke gedaan om jullie optimaal te laten genieten van het mooie Hageland en de uitlopers richting Haspengouw. Bekijk hier de foto's van de eerste editie."
   link: "https://photos.google.com/share/AF1QipNqT_S1tHZzRD0XNouEpBXovuCGKnqumKIJiBeAQrSwQPIaJwyGKeaDgrKE_jBhZA?key=QkU5MTh3bm53Z3NibHY3dlVBUi1JeFZ0MGFIUlFR"
   linktext: "Bekijk de foto's"
 
 newinfo:
-  title: "Informatie nieuwe editie 2025"
+  title: "Informatie editie 2026"
   description: |
-    De nieuwe editie van de A.C. Hagelandse Off-Road Parels zal plaatsvinden op zondag 21 juni 2025.
+    De vierde editie van de A.C. Hagelandse Off-Road Parels zal plaatsvinden op zondag 3 mei 2026.
 
-    Voor meer informatie kunnen jullie gaan naar de website: https://www.go4cycling.com/nl/product/a-c-hagelandse-parels/
-  sitego4cyclingtitle: "Website Go4Cycling"
-  sitego4cycling: "https://www.go4cycling.com/nl/product/a-c-hagelandse-parels/"
-  contacttitle: "Contactpersonen"
+    📰 Lees het artikel over onze succesvolle 2025 editie: https://wielerverhaal.com/2025/06/22/wij-waren-onder-de-indruk-van-de-abus-a-c-hagelandse-parels-en-werden-getriggerd-met-iets-nieuws/
+  contacttitle: "Contactpersoon"
   contactgravel: "Info GRAVEL & MTB: André Coppers +32 498 45 57 16"
-  contactcyclotochten: "Info voor Cyclotochten: Nico Ruyloft +32 496 40 42 89"
   register:
-    date: "Zaterdag 21 juni 2025"
+    date: "Zondag 3 mei 2026"
     title: "Locatie"
     titleprice: "Prijs en informatie"
     description: |
-      **SK Waanrode**\
-      Steenbergstraat 1-9, 3473 Kortenaken
+      **Feestzaal Bergendal**\
+      Grote Vreunte 57, 3473 Kortenaken (Waanrode)
 
-      **Parking:**\
-      Er is parkeergelegenheid op het terrein.
+      **Faciliteiten:**\
+      Bewaakte fietsstalling / Afspuit stand fietsen / Food & drinks na TT / Kleedkamer en gescheiden douches mannen en vrouwen in de aanpalende Sporthal De Vreun.
 
-      **Drankbenodigdheden:**\
-      Natuurlijk moet je bij aankomst weer vocht binnenkrijgen. We zorgen voor bier en frisdrank en een terras waar je gezellig kunt kletsen.
-
-      **Overige faciliteiten:**\
-      Toilet, kleedkamers en douche
+      **In samenwerking met:**\
+      KOTK team Kortenaken
 
     descriptionprice: |
-      Wil je deelnemen aan de ABUS – A.C. Hagelandse Parels? Kom dan op zaterdag 21 juni naar de Voetbalvelden van S.K. Waanrode.\
-      Inschrijving voor de **MTB & Gravel** routes kost **6 euro**, voor de **Weg** route van **40km** **4 euro** en voor de andere **Weg** routes **7 euro**.\
-      Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.**
+      Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 3 mei 2026 naar Feestzaal Bergendal.\
+      Lussen van **21 km tot 75 km**: alles netjes bepijld. Deelname aan democratische prijzen!\
+      Kids geboren in 2010 en later **GRATIS** + een geschenkje (zonder vergunning = 2 euro).\
+      Zonder vergunning betaal je **2 euro extra voor een dag verzekering.**
     place: |
-      **SK Waanrode**\
-      Gps: Steenbergstraat, 3470 KORTENAKEN
+      **Feestzaal Bergendal**\
+      Grote Vreunte 57, 3473 Kortenaken (Waanrode)
 
 dinstancegroup:
   title: Afstanden
   description: |
-    **Belangrijke punten:**
-    - Alle MTB- en Gravelroutes zijn open van 07:00 tot 10:00, terwijl de 40 km wegrit beschikbaar is tot 11:00.
-    - De 54 km MTB-route en alle wegfietsroutes zijn volledig uitgepijld. Gravelroutes zijn enkel beschikbaar via GPX.
-    - De hoogtemeters en details van de wegfietsroutes worden binnenkort bekendgemaakt.
+    **A.C. Hagelandse Off-Road Parels in de bloesems - Zondag 3 mei 2026**
 
-    Een mix van uitdagende beklimmingen, glooiend terrein en prachtige landschappen zorgt voor een onvergetelijke ervaring voor elke deelnemer!\
-    \
-    **Deze rit is onderdeel van Cycling Vlaanderen & Fietssport**
+    Er is geen gescheiden gravel parcours. Gezien het tijdstip van het jaar en de wisselende ondergronden zijn de parcours geschikt voor alle off-road fietsers: **MTB en GRAVEL**.
 
-  subtitle: Overzicht van Routes voor “Abus - A.C. Hagelandse Parels” zaterdag 21 juni 2025
+    Lussen van 21 km tot 75 km: alles netjes bepijld!
+    Pittige klimmen afgewisseld met adembenemende vergezichten. 80% off-road en autoluwe verbindingslusjes.
+    Hellingen tot 16% en mystieke Hagelandse holle wegen.
+
+  subtitle: Overzicht van Routes voor "A.C. Hagelandse Off-Road Parels" zondag 3 mei 2026
   mtb:
-    title: "MTB Routes"
+    title: "MTB / GRAVEL Routes"
     extra: |
-      **Modulaire shortcuts:**\
-      Fietsers kunnen bepaalde lussen overslaan om tot 30 km in te korten. Beschikbare shortcuts:
-      - 2 km, 2 km, 4,5 km, 1 km, 1,5 km, 19 km\
-      Elke lus bevat minstens één stevige klim.
+      Alle parcours zijn geschikt voor zowel MTB als GRAVEL fietsen. Alles netjes bepijld!
     distances:
-      - title: "24 km Route"
+      - title: "21 km Route"
         description: |
-          Kort en toegankelijk met een gematigde uitdaging.
+          Korte en toegankelijke route met 5 klimmen. Ideaal voor beginners of een ontspannen rit.
         supply: 1
-        height: 250
-        hills: 6
-      - title: "36 km Route"
+        height: 200
+        hills: 5
+        pricewith: 6
+        pricewithout: 8
+      - title: "40 km Route"
         description: |
-          Een langere route met meer beklimmingen, ideaal voor gevorderden.
+          Middellange route met 7 klimmen. Perfecte uitdaging voor recreatieve fietsers.
         supply: 1
-        height: 370
-        hills: 11
-      - title: "54 km Route"
+        height: 350
+        hills: 7
+        pricewith: 6
+        pricewithout: 8
+      - title: "60 km Route"
         description: |
-          Volledig uitgepijld; perfect voor ervaren fietsers die een uitdaging zoeken.
-        supply: 1
-        height: 620
-        hills: 16
-  gravel:
-    title: "Gravel Routes"
-    distances:
-      - title: "58 km Route"
-        description: |
-          Enkel beschikbaar via GPX; afwisselende route voor gravelrijders.
-        supply: 1
-        height: 400
-        hills: 8
-      - title: "87 km Route"
-        description: |
-          Enkel beschikbaar via GPX; langere route met uitdagende hoogtemeters.
+          Langere route met 16 klimmen en 700 hoogtemeters. Voor de gevorderde fietser die van een uitdaging houdt.
         supply: 2
         height: 700
-        hills: 17
-  road:
-    title: "Wegfiets Routes"
-    distances:
-      - title: "40 km Route (Starttijd tot 11:00)"
+        hills: 16
+        pricewith: 8
+        pricewithout: 10
+      - title: "75 km Route"
         description: |
-          Volledig uitgepijld; ideaal voor recreatieve fietsers of beginners.
-        supply: 0
-        height: TBD
-        hills: TBD
-      - title: "66 km Route"
-        description: |
-          Volledig uitgepijld; uitgebalanceerde route voor gevorderden.
-        supply: 1
-        height: TBD
-        hills: TBD
-      - title: "90 km Route"
-        description: |
-          Volledig uitgepijld; voor fietsers die wat meer uithoudingsvermogen zoeken.
-        supply: 1
-        height: TBD
-        hills: TBD
-      - title: "127 km Route"
-        description: |
-          Volledig uitgepijld; uitdagende langeafstandstocht voor ervaren fietsers.
+          De langste route met 21 klimmen en 800 hoogtemeters. Voor ervaren fietsers die de ultieme uitdaging zoeken.
         supply: 2
-        height: TBD
-        hills: TBD
-  distances:
-    - title: "35 km Route"
-      description: |
-        De 35 km route is eigenlijk het **centrale deel** van de tocht. Al het moois van het Hageland zit hierin gebundeld inclusief enkele pittige klimmen tot 15% stijging. Hier vinden we een hoger mountainbike gehalte.    
-
-        Waanrode-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Waanrode
-      supply: 1
-      height: 320
-      hills: 14
-    - title: "54 km Route"
-      description: |
-        De 54 km is volgt de 35 km met een **uitbreiding noordelijke** richting.  (Diest). De bijkomende lus is een variatie van gravel/MTB met een paar steile kuitenbijters. Geniet op deze lus vooral van het aangeboden landschap.
-
-        Waanrode-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Webbekom-Diest-Kaggevinne-Scherpenheuvel-Assent-Rijnrode-Waanrode
-      supply: 1
-      height: 460
-      hills: 18
-    - title: "68 km Route"
-      description: |
-        De 68 km is een combinatie van de 57 km en de 35 km. De **zuidelijke** lus (richting Tienen) en de centrale lus zorgen voor een perfecte combinatie tussen gravel en MTB. Beginnen doen we met het vlakkere deel Gete vallei, Velpe vallei  maar na 30 km komen de typische Hagelandse hellingen. De noordelijke lus (richting Diest) zit niet in deze route.
-
-        Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom-Kortenaken-Loksbergen-Halen-Rijnrode-Webbekom-Diest-Kaggevinne-Scherpenheuvel-Assent-Rijnrode-Waanrode
-      supply: 2
-      height: 500
-      hills: 17
-    - title: "87 km Route"
-      description: |
-        De 87 km een aaneensluiting van **alle** hierboven aangehaalde lussen. Volgt zowel de zuidelijke lus richting Tienen (deze lus heeft een hoog gravelgehalte) als de noordelijke lus richting Diest. Het doorzettingsvermogen zal hier zeker worden aangesproken maar ruimschoots gecompenseerd met adembenemende vergezichten.
-
-        Waanrode-Miskom-Hoeleden-Bunsbeek-Sint Margriet Houtem -Tienen- Oplinter- Wommersem-Drieslinter-Budingen-Ransberg-Miskom Kortenaken-Loksbergen-Rijnrode-Waanrode
-      supply: 2
-      height: 620
-      hills: 21
+        height: 800
+        hills: 21
+        pricewith: 8
+        pricewithout: 10
   supply: "Bevoorrading"
   height: "Hoogtemeters"
   hills: "Klimmen"
@@ -228,11 +163,11 @@ information:
   title: "Informatie"
   items:
     - title: "Inschrijving"
-      description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 23 juni naar de Voetbalvelden van S.K. Waanrode. Inschrijving **ter plaatse** aan de democratische prijs van **6 euro** (1 bevoorrading) of **8 euro** (2 bevoorradingen). Heb je geen lidkaart Cycling Vlaanderen of VWB dan betaal je **2 euro extra voor een dag verzekering.** Betalen kan ook via payconiq. **GRATIS deelname -15 jaar** (°2009 en later) + een geschenk(je)."
+      description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 3 mei 2026 naar Feestzaal Bergendal in Kortenaken (Waanrode). Inschrijving **ter plaatse** aan democratische prijzen: **6 euro** (21km/40km) of **8 euro** (60km/75km). Zonder vergunning betaal je **2 euro extra voor een dag verzekering.** **GRATIS deelname** voor kids geboren in 2010 en later + een geschenkje."
     - title: "Bevoorrading(en)"
       description: "Op bevoorradingen is er een **ruim aanbod** drank (water en energydrank) en voeding (bananen, suikerwafels, appelsienen, peperkoek). Help de afvalberg verminderen en sorteer het achtergelaten vuil in de voorziene vuilbakken. Om ecologische redenen is het ook aangeraden om je **drinkfles te her vullen** en daarom zal het gebruik van drinkbekers beperkt zijn!"
     - title: "Bij finish - Douches"
-      description: "Er is gelegenheid tot het nemen van een douche met aparte **kleedruimtes voor dames en heren**. Voor je comfort voorzien we ook een **bewaakte fietsenparking**. Een **afspuitstand** om je fiets ook een douche te geven zal eveneens aanwezig zijn."
+      description: "Er is gelegenheid tot het nemen van een douche met aparte **kleedruimtes voor dames en heren** in de aanpalende Sporthal De Vreun. Voor je comfort voorzien we ook een **bewaakte fietsenparking**. Een **afspuitstand** om je fiets ook een douche te geven zal eveneens aanwezig zijn."
     - title: "Vrouwvriendelijke organisatie"
       description: "Wetende dat er op elke tocht meer en meer vrouwen aanwezig zijn zullen we ervoor zorgen dat op elke bevoorradingspost **een toilet** aanwezig is. Vanzelfsprekend doen we ook een oproep aan alle mannelijke deelnemers om hiervan gebruik te maken."
     - title: "Technische bijstand"
@@ -249,14 +184,14 @@ information:
 
 club:
   title: "Sportclub Fit & Move Kortenaken."
-  description: "Leden van de club kunnen volgende sportbedrijvigheden beoefenen op recreatieve basis: fietsen en alle voorbereidende sporten zoals zwemmen, joggen, turnen, fitness. Maar de hoofdactiviteit is en blijft het off-road fietsen. De club is erkend als sportclub door de gemeente Kortenaken en door de provincie Vlaams-Brabant. Na de eerste editie in 2023 (met bijna 600 enthousiaste deelnemers) zullen we al het mogelijke doen om jullie optimaal te laten genieten van het mooie Hageland en de uitlopers richting Haspengouw."
+  description: "Leden van de club kunnen volgende sportbedrijvigheden beoefenen op recreatieve basis: fietsen en alle voorbereidende sporten zoals zwemmen, joggen, turnen, fitness. Maar de hoofdactiviteit is en blijft het off-road fietsen. De club is erkend als sportclub door de gemeente Kortenaken en door de provincie Vlaams-Brabant. Na drie succesvolle edities zullen we al het mogelijke doen om jullie optimaal te laten genieten van het mooie Hageland en de uitlopers richting Haspengouw."
   btn: "Contact"
 
 contact:
   title: "Onze contactgevens"
   address:
     title: "Adres / Locatie"
-    description: "KORTENAKEN FIT & MOVE voetbalveld SK Waanrode, Gps: Steenbergstraat, 3470 KORTENAKEN"
+    description: "Feestzaal Bergendal, Grote Vreunte 57, 3473 Kortenaken (Waanrode)"
   email:
     title: "Email"
     description: "&#x61;&#x6e;&#x64;&#x72;&#x65;&#x2e;&#x63;&#x6f;&#x70;&#x70;"
