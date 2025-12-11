@@ -99,9 +99,8 @@ newinfo:
 
     descriptionprice: |
       Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 3 mei 2026 naar Feestzaal Bergendal.\
-      Lussen van **21 km tot 75 km**: alles netjes bepijld. Deelname aan democratische prijzen!\
-      Kids geboren in 2010 en later **GRATIS** + een geschenkje (zonder vergunning = 2 euro).\
-      Zonder vergunning betaal je **2 euro extra voor een dag verzekering.**
+      Lussen van **21 km tot 75 km**: alles netjes bepijld. Deelname aan democratische prijzen: **21km/40km: €6** | **60km/75km: €8** | **Dag verzekering: +€2**\
+      Kids geboren in 2010 en later **GRATIS** + een geschenkje (zonder vergunning = 2 euro).
     place: |
       **Feestzaal Bergendal**\
       Grote Vreunte 57, 3473 Kortenaken (Waanrode)
@@ -122,6 +121,8 @@ dinstancegroup:
     title: "MTB / GRAVEL Routes"
     extra: |
       Alle parcours zijn geschikt voor zowel MTB als GRAVEL fietsen. Alles netjes bepijld!
+      
+      **Dag verzekering: + €2**
     distances:
       - title: "21 km Route"
         description: |
@@ -129,32 +130,29 @@ dinstancegroup:
         supply: 1
         height: 200
         hills: 5
-        pricewith: 6
-        pricewithout: 8
+        price: 6
       - title: "40 km Route"
         description: |
           Middellange route met 7 klimmen. Perfecte uitdaging voor recreatieve fietsers.
         supply: 1
         height: 350
         hills: 7
-        pricewith: 6
-        pricewithout: 8
+        price: 6
       - title: "60 km Route"
         description: |
           Langere route met 16 klimmen en 700 hoogtemeters. Voor de gevorderde fietser die van een uitdaging houdt.
         supply: 2
         height: 700
         hills: 16
-        pricewith: 8
-        pricewithout: 10
+        price: 8
       - title: "75 km Route"
         description: |
           De langste route met 21 klimmen en 800 hoogtemeters. Voor ervaren fietsers die de ultieme uitdaging zoeken.
         supply: 2
         height: 800
         hills: 21
-        pricewith: 8
-        pricewithout: 10
+        price: 8
+  price: "Prijs"
   supply: "Bevoorrading"
   height: "Hoogtemeters"
   hills: "Klimmen"
