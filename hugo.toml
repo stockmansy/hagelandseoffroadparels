@@ -16,25 +16,25 @@ favicon = "assets/favicon.ico"
 
 [[menu.main]]
 name = "Welkom"
-URL = "#welkom"
+URL = "/#welkom"
 weight = 1
 
 [[menu.main]]
-name = "2026 editie"
-URL = "#huidige_editie"
+name = "2027 editie"
+URL = "/#huidige_editie"
 weight = 2
 
 [[menu.main]]
 name = "Afstanden"
-URL = "#afstanden"
+URL = "/#afstanden"
 weight = 3
 
 [[menu.main]]
 name = "Vorige edities"
-URL = "#vorige_editie"
+URL = "/#vorige_editie"
 weight = 4
 
 [[menu.main]]
 name = "Over ons"
-URL = "#over_ons"
+URL = "/#over_ons"
 weight = 5

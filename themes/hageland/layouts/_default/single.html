@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main id="page-top" class="min-h-screen bg-white pb-16 pt-28 text-gray-800">
+  <article class="container mx-auto px-4 lg:px-12">
+    <a href="/" class="mb-8 inline-block font-bold text-base-color underline">Terug naar de startpagina</a>
+    <header class="mb-10 max-w-4xl border-b border-gray-200 pb-6">
+      <p class="mb-2 text-sm font-bold uppercase text-gray-500">A.C. Hagelandse Off-Road Parels</p>
+      <h1 class="text-4xl text-gray-900 sm:text-5xl">{{ .Title }}</h1>
+      <p class="mt-4 text-xl font-bold text-gray-900">Zondag 11 april 2027 | MTB / Gravel</p>
+    </header>
+    <div class="edition-content max-w-5xl overflow-x-auto">{{ .Content }}</div>
+  </article>
+</main>
+{{ end }}

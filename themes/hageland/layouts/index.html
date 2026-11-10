@@ -10,7 +10,7 @@
           <div class="text-center">
             {{ with site.Data.homepage.main }} {{ $content := replace .header.title "\n" "<br />" | safeHTML }}
             <h1 class="mx-auto my-0 title">{{ $content }}</h1>
-            <a href="#huidige_editie">
+            <a href="{{ .header.url }}">
               <div class="bg-base-accent inline-block brushed px-20 py-10 mt-32 lg:mt-10 opacity-80">
                 <h3 class="text-2xl xl:text-4xl uppercase text-base-color font-bold">{{ .header.description }}</h3>
               </div>
@@ -42,29 +42,32 @@
           <h2 class="text-4xl tracking-tight font-extrabold text-gray-900">{{ .title }}</h2>
         </div>
         <div></div>
-        <div class="relative overflow-hidden">
+        <div class="relative overflow-hidden bg-gray-100">
+          <div class="absolute left-4 top-4 z-20 max-w-xs bg-white p-4 text-left shadow">
+            <p class="font-bold">Feestzaal Bergendal</p>
+            <p class="mt-1 text-sm">Grote Vreunte 57, 3473 Kortenaken (Waanrode)</p>
+            <a href="https://www.openstreetmap.org/?mlat=50.9145971&amp;mlon=5.0035991#map=18/50.9145971/5.0035991" target="_blank" rel="noopener noreferrer">Open kaart op OpenStreetMap</a>
+          </div>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.523609006574!2d5.001066777319662!3d50.914030371684554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c14019ba6e0af1%3A0xb0a72007758cf986!2sGrote%20Vreunte%2057%2C%203473%20Kortenaken!5e0!3m2!1sen!2sbe!4v1764869676185!5m2!1sen!2sbe"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=5.0003%2C50.9124%2C5.0069%2C50.9168&layer=mapnik&marker=50.9145971%2C5.0035991"
             width="600"
             height="450"
             allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            loading="eager"
             class="border-2 min-h-56 h-full w-full object-cover object-top relative z-10"
-            title="Google maps"
+            title="Kaart Feestzaal Bergendal, Grote Vreunte 57"
           ></iframe>
-          <picture class="absolute top-0">
-            {{ $image := resources.Get "images/waanrode.jpg" }} {{ $mediumW := $image.Resize "430x" }} {{ $mediumWwebp := $image.Resize "430x webp" }}
-            <source srcset="{{ $mediumWwebp.RelPermalink }}" type="image/webp" />
-            <source srcset="{{ $mediumW.RelPermalink }}" type="image/jpeg" />
-            <img src="{{ $mediumW.RelPermalink }}" class="object-cover" alt="Waanrode" />
-          </picture>
         </div>
         <div>
           <div class="pt-8">
             <h2>{{ .register.date }}</h2>
             <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .register.title }}</h2>
-            <p>{{ $.Page.RenderString .register.description }}</p>
+            <div>{{ $.Page.RenderString .register.description }}</div>
+            <p class="mt-4">
+              <a href="https://www.openstreetmap.org/?mlat=50.9145971&amp;mlon=5.0035991#map=18/50.9145971/5.0035991" target="_blank" rel="noopener noreferrer">Kaart openen in OpenStreetMap</a>
+              <span aria-hidden="true"> | </span>
+              <a href="https://www.google.com/maps/dir/?api=1&amp;destination=50.9145971%2C5.0035991" target="_blank" rel="noopener noreferrer">Route plannen in Google Maps</a>
+            </p>
           </div>
           <div class="brushed bg-base-accent mt-4 p-14 font-extrabold mb-12">{{ $.Page.RenderString .register.place }}</div>
         </div>
@@ -76,11 +79,22 @@
             <h2 class="text-4xl tracking-tight font-extrabold text-gray-900">{{ $.Page.RenderString .register.titleprice }}</h2>
           </div>
           <div class="pt-4">
-            <p>{{ $.Page.RenderString .register.descriptionprice }}</p>
-            <h3 class="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">{{ .contacttitle }}</h3>
-            <p class="mt-4">{{ $.Page.RenderString .contactgravel }}<br />{{ $.Page.RenderString .contactcyclotochten }}</p>
-            <h3 class="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">{{ .sitego4cyclingtitle }}</h3>
-            <p class="mt-4">{{ $.Page.RenderString .sitego4cycling }}</p>
+            <div>{{ $.Page.RenderString .register.descriptionprice }}</div>
+            {{ with .contacttitle }}
+            <h3 class="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">{{ . }}</h3>
+            {{ end }}
+            {{ with .contactgravel }}
+            <p class="mt-4">{{ $.Page.RenderString . }}</p>
+            {{ end }}
+            {{ with .contactcyclotochten }}
+            <p class="mt-4">{{ $.Page.RenderString . }}</p>
+            {{ end }}
+            {{ with .sitego4cyclingtitle }}
+            <h3 class="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">{{ . }}</h3>
+            {{ end }}
+            {{ with .sitego4cycling }}
+            <p class="mt-4">{{ $.Page.RenderString . }}</p>
+            {{ end }}
           </div>
         </div>
         <div>
@@ -204,56 +218,7 @@
             </div>
           </div>
           {{ end }}
-        </div>
-        <h4>{{ $.Page.RenderString .road.title }}</h4>
-        <div class="py-12 grid md:gap-12 md:grid-cols-2">
-          {{ range site.Data.homepage.dinstancegroup.road.distances }}
-          <div class="shadowy flex flex-col brushed4 distance p-6">
-            <div class="p-6 pb-2 flex flex-1 flex-col">
-              <header class="pb-2 border-b">
-                <h3 class="inline-flex items-baseline pb-4 text-2xl">
-                  <span>{{ .title }}</span>
-                </h3>
-              </header>
-              <div class="my-6">{{ $.Page.RenderString .description }}</div>
-              <footer class="py-6 mt-auto grid xl:grap-2 xl:grid-cols-3 border-t">
-                <div class="inline-flex items-center xl:place-content-start whitespace-nowrap">
-                  <span class="w-8 lg:w-6 mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon pr-4">
-                      <path d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v.75c0 1.036.84 1.875 1.875 1.875h17.25c1.035 0 1.875-.84 1.875-1.875v-.75C22.5 3.839 21.66 3 20.625 3H3.375Z" />
-                      <path
-                        fill-rule="evenodd"
-                        d="m3.087 9 .54 9.176A3 3 0 0 0 6.62 21h10.757a3 3 0 0 0 2.995-2.824L20.913 9H3.087Zm6.163 3.75A.75.75 0 0 1 10 12h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75Z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                  </span>
-                  <span>{{ site.Data.homepage.dinstancegroup.supply }}: {{ .supply }}</span>
-                </div>
-                <div class="inline-flex items-center xl:place-content-center whitespace-nowrap">
-                  <span class="w-8 lg:w-6 mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor" class="icon pr-4">
-                      <path d="M720-480v-168l-64 64-56-56 160-160 160 160-56 57-64-64v167h-80ZM40-80l240-320 180 240h300L560-426 460-294l-50-66 150-200L920-80H40Zm420-80Z" />
-                    </svg>
-                  </span>
-                  <span>{{ site.Data.homepage.dinstancegroup.height }}: {{ .height }}</span>
-                </div>
-                <div class="inline-flex items-center xl:place-content-end whitespace-nowrap">
-                  <span class="w-8 lg:w-6 mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon pr-4">
-                      <path
-                        fill-rule="evenodd"
-                        d="M15.22 6.268a.75.75 0 0 1 .968-.431l5.942 2.28a.75.75 0 0 1 .431.97l-2.28 5.94a.75.75 0 1 1-1.4-.537l1.63-4.251-1.086.484a11.2 11.2 0 0 0-5.45 5.173.75.75 0 0 1-1.199.19L9 12.312l-6.22 6.22a.75.75 0 0 1-1.06-1.061l6.75-6.75a.75.75 0 0 1 1.06 0l3.606 3.606a12.695 12.695 0 0 1 5.68-4.974l1.086-.483-4.251-1.632a.75.75 0 0 1-.432-.97Z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                  </span>
-                  <span>{{ site.Data.homepage.dinstancegroup.hills }}: {{ .hills }}</span>
-                </div>
-              </footer>
-            </div>
-          </div>
-          {{ end }}
+          <div>{{ $.Page.RenderString .gravel.extra }}</div>
         </div>
       </div>
     </section>
@@ -263,7 +228,14 @@
     {{ with site.Data.homepage.previousedition }}
     <section class="bg-gray-100 pb-20 -mt-128 relative z-20" id="vorige_editie">
       <div class="container mx-auto px-4 lg:px-12 pt-2">
-        <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .lasttitle }}</h2>
+        <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">Vorige edities</h2>
+        {{ with .edition2026 }}
+        <article class="mb-12 scroll-mt-24 border-b border-gray-300 pb-10" id="editie_2026">
+          <h3 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900">{{ .title }}</h3>
+          <div class="mt-4 overflow-x-auto">{{ $.Page.RenderString .description }}</div>
+        </article>
+        {{ end }}
+        <h3 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .lasttitle }}</h3>
         <div class="grid md:gap-16 md:grid-cols-2">
           <picture>
             {{ $image := resources.Get "images/2025-1.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
@@ -288,7 +260,7 @@
     {{ with .edition2024 }}
     <section class="bg-gray-100 pb-20 relative z-20" id="editie_2024">
       <div class="container mx-auto px-4 lg:px-12 pt-2">
-        <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .title }}</h2>
+        <h3 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .title }}</h3>
         <div class="grid md:gap-16 md:grid-cols-2">
           <picture>
             {{ $image := resources.Get "images/vrt-1.jpg" }} {{ $medium := $image.Resize "768x" }} {{ $mediumwebp := $image.Resize "768x webp" }}
@@ -316,7 +288,7 @@
           <div class="container mx-auto px-4 lg:px-12 grid md:gap-16 md:grid-cols-2 pt-16">
             <div>
               <div class="pt-8">
-                <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .title }}</h2>
+                <h3 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .title }}</h3>
                 <p>{{ $.Page.RenderString .description }}</p>
               </div>
               <div class="brushed bg-base-accent text-center mt-4 p-14 text-2xl font-extrabold mb-12">

@@ -11,10 +11,10 @@
       <img src="https://img.icons8.com/fluent/30/000000/twitter.png" alt="twitter" />
     </a> -->
   </div>
-  <p class="text-center text-gray-700 font-medium">Copyright &copy; {{ .Name }} {{ now.Format "2006"}}</p>
+  <p class="text-center text-gray-700 font-medium">Copyright &copy; {{ site.Title }} {{ now.Format "2006"}}</p>
 </footer>
 <!-- Core theme JS-->
-<script src="js/scripts.js"></script>
+<script src="{{ "js/scripts.js" | relURL }}"></script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1Q5DYQG4H"></script>

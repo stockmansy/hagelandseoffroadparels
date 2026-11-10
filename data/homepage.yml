@@ -7,24 +7,25 @@ main:
     title: |
       A.C. Hagelandse 
       Off-Road Parels
-    description: "4de Editie 3 mei 2026"
+    description: "5de Editie 11 april 2027"
+    url: "/#huidige_editie"
 
 # About
 about:
   title: "A.C. Hagelandse Off-Road Parels"
-  subtitle: "zondag 3 mei 2026 - in de bloesems"
+  subtitle: "zondag 11 april 2027 - in de bloesems"
   description: |
-    **De vierde editie van de "A.C. Hagelandse Off-Road Parels in de bloesems"!**
+    **De vijfde editie van de "A.C. Hagelandse Off-Road Parels in de bloesems"!**
 
-    Op zondag 3 mei 2026 verwelkomen we jullie opnieuw voor een prachtige off-road belevenis in het Hageland. Hopelijk kunnen we nog genieten van de kleurrijke bloesems van de fruitplantages! Het Hageland op zijn mooist!
+    Op zondag 11 april 2027 verwelkomen we jullie voor een prachtige off-road belevenis in het Hageland. Hopelijk kunnen we genieten van de kleurrijke bloesems van de fruitplantages! Het Hageland op zijn mooist!
 
-    Er is geen gescheiden gravel parcours. Gezien het tijdstip van het jaar en de wisselende ondergronden zijn de parcours geschikt voor alle off-road fietsers: **MTB en GRAVEL**.
+    De MTB- en gravelparcours zijn grotendeels gescheiden, met voor beide disciplines een aangepaste omloop.
 
-    Pittige klimmen afgewisseld met adembenemende vergezichten. **80% off-road** en autoluwe verbindingslusjes. Hellingen tot **16%** en mystieke Hagelandse holle wegen.
+    Pittige klimmen wisselen af met adembenemende vergezichten. **75% off-road**, autoluwe verbindingslusjes en hellingen tot **16%** langs typische Hagelandse holle wegen.
 
-    **Nieuwe locatie:** Feestzaal Bergendal, Grote Vreunte 57 te 3473 Kortenaken (Waanrode). In samenwerking met KOTK team Kortenaken.
+    De MTB-parcours worden met pijltjes bewegwijzerd. De gravelroutes zijn uitsluitend beschikbaar via GPX.
 
-    📰 **Lees het artikel over onze succesvolle 2025 editie op [Wielerverhaal.com](https://wielerverhaal.com/2025/06/22/wij-waren-onder-de-indruk-van-de-abus-a-c-hagelandse-parels-en-werden-getriggerd-met-iets-nieuws/)**
+    **Locatie:** Feestzaal Bergendal, Grote Vreunte 57, 3473 Kortenaken (Waanrode). In samenwerking met KOTK team Kortenaken.
 
   button:
     enable: true
@@ -32,33 +33,20 @@ about:
     url: "#"
   image: "assets/img/Welkom.jpg"
 
-currentedition:
-  title: "**2026 Editie** Kortenaken"
-  lastdetails:
-    title: "Terugblik 2025 - Een succes!"
-    olddetails: |
-      Onze 2025 editie was een groot succes! Lees het volledige verslag op [Wielerverhaal.com](https://wielerverhaal.com/2025/06/22/wij-waren-onder-de-indruk-van-de-abus-a-c-hagelandse-parels-en-werden-getriggerd-met-iets-nieuws/).
-  register:
-    date: "Zondag 3 mei 2026"
-    title: "Locatie"
-    description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 3 mei 2026 naar Feestzaal Bergendal. Inschrijving **ter plaatse** aan democratische prijzen. Zonder vergunning betaal je **2 euro extra voor een dag verzekering.** Kids geboren in 2010 en later **GRATIS** + een geschenkje."
-    place: |
-      **Feestzaal Bergendal**
-      Grote Vreunte 57, 3473 Kortenaken (Waanrode)
-  reasons:
-    title: "Redenen waarom je er zondag 3 mei 2026 zeker bij moet zijn."
-    description: |
-      1.	Mooie afwisselende routes samengesteld door MTB pioniers uit de streek.
-      2.	Democratisch inschrijfgeld en gratis voor kids geboren in 2010 en later + een geschenk(je).
-      3.	Uitstekende bevoorradingen.
-      4.	Technische bijstand aan de bevoorradingsplaatsen.
-      5.	Vrouwvriendelijke organisatie: toiletmogelijkheid op bevoorradingsplaatsen.
-      6.	Ruime keuze van aangeboden afstanden (21 km tot 75 km) zodat iedereen een keuze kan maken volgens eigen niveau.
-      7.	Geschikt voor zowel gravel als mountainbike fietsen.
-      8.	DE off-road streek van Vlaanderen. Het heuvelachtige Hageland en zijn licht glooiende uitlopers naar het Haspengouw.
-      9.	Nieuwe locatie: Feestzaal Bergendal met uitstekende faciliteiten.
-
 previousedition:
+  edition2026:
+    title: "2026 Editie"
+    description: |
+      De vierde editie vond plaats op zondag 3 mei 2026 in Feestzaal Bergendal, Grote Vreunte 57, 3473 Kortenaken (Waanrode). De routes waren geschikt voor zowel MTB als gravel.
+
+      | Afstand | Hoogtemeters | Klimmen | Bevoorradingen | Prijs |
+      | --- | ---: | ---: | ---: | ---: |
+      | 21 km | 200 m | 5 | 1 | €6 |
+      | 40 km | 350 m | 7 | 1 | €6 |
+      | 60 km | 700 m | 16 | 2 | €8 |
+      | 75 km | 800 m | 21 | 2 | €8 |
+
+      Inschrijving was ter plaatse van 8h00 tot 10h30. Een dagvergunning kostte €2 extra. Kinderen geboren in 2010 of later namen gratis deel en kregen een geschenkje. Er waren bevoorradingen, technische bijstand, een bewaakte fietsenstalling, een afspuitstand en douches.
   lasttitle: "2025 Editie"
   lastsubtitle: |
     **Onze 2025 editie was een groot succes!**
@@ -76,115 +64,81 @@ previousedition:
   linktext: "Bekijk de foto's"
 
 newinfo:
-  title: "Informatie editie 2026"
-  description: |
-    De vierde editie van de A.C. Hagelandse Off-Road Parels zal plaatsvinden op zondag 3 mei 2026.
-
-    📰 Lees het artikel over onze succesvolle 2025 editie: https://wielerverhaal.com/2025/06/22/wij-waren-onder-de-indruk-van-de-abus-a-c-hagelandse-parels-en-werden-getriggerd-met-iets-nieuws/
-  contacttitle: "Contactpersoon"
-  contactgravel: "Info GRAVEL & MTB: André Coppers +32 498 45 57 16"
+  title: "Informatie editie 2027"
+  contacttitle: "Samenwerking en meer info"
+  contactgravel: "In samenwerking met KOTK team Kortenaken. [Website](https://www.hagelandseoffroadparels.be/) | [Facebook](https://www.facebook.com/p/Fit-Move-sportclub-Kortenaken-100088017470117/)"
   register:
-    date: "Zondag 3 mei 2026"
+    date: "Zondag 11 april 2027"
     title: "Locatie"
-    titleprice: "Prijs en informatie"
+    titleprice: "Inschrijving en prijzen"
     description: |
       **Feestzaal Bergendal**\
       Grote Vreunte 57, 3473 Kortenaken (Waanrode)
 
       **Faciliteiten:**\
-      Bewaakte fietsstalling / Afspuit stand fietsen / Food & drinks na TT / Kleedkamer en gescheiden douches mannen en vrouwen in de aanpalende Sporthal De Vreun.
-
-      **In samenwerking met:**\
-      KOTK team Kortenaken
+      Bewaakte fietsstalling / Afspuitstand fietsen / Ruime bevoorrading(en) / Technische bijstand / Food & drinks na de toertocht / Kleedkamers en douches voor mannen en vrouwen.
 
     descriptionprice: |
-      Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 3 mei 2026 naar Feestzaal Bergendal.\
-      Lussen van **21 km tot 75 km**: alles netjes bepijld. Deelname aan democratische prijzen: **21km/40km: €6** | **60km/75km: €8** | **Dag verzekering: +€2**\
-      Kids geboren in 2010 en later **GRATIS** + een geschenkje (zonder vergunning = 2 euro).
-
-      **Inschrijving:** Alle afstanden tussen **8h00 en 10h30**
+      Deelname aan democratische prijzen. **MTB 28/40/50 km:** voorinschrijving €6, ter plaatse €8. **Gravel 55 km:** voorinschrijving €8, ter plaatse €10. **Gravel 75 km:** voorinschrijving €10, ter plaatse €12.\
+      Een dagvergunning kost **€2 extra**. Kinderen geboren in **2011 of later** nemen gratis deel en krijgen een geschenkje; zonder vergunning betalen zij €2 voor de dagvergunning.\
+      **Inschrijving:** van **8h00 tot 10h30**.\
+      **Bevoorrading:** centraal van **8h45 tot 12h30**; bevoorrading 2 van **9h30 tot 12h30**.\
+      [Alle details over de editie 2027](/editie-2027/)
     place: |
       **Feestzaal Bergendal**\
       Grote Vreunte 57, 3473 Kortenaken (Waanrode)
 
 dinstancegroup:
-  title: Afstanden
+  title: "Afstanden en routes"
   description: |
-    **A.C. Hagelandse Off-Road Parels in de bloesems - Zondag 3 mei 2026**
+    **A.C. Hagelandse Off-Road Parels in de bloesems - zondag 11 april 2027**
 
-    Er is geen gescheiden gravel parcours. Gezien het tijdstip van het jaar en de wisselende ondergronden zijn de parcours geschikt voor alle off-road fietsers: **MTB en GRAVEL**.
+    De gravel- en MTB-parcours zijn grotendeels gescheiden, met voor beide disciplines een aangepaste omloop.
 
-    Lussen van 21 km tot 75 km: alles netjes bepijld!
-    Pittige klimmen afgewisseld met adembenemende vergezichten. 80% off-road en autoluwe verbindingslusjes.
-    Hellingen tot 16% en mystieke Hagelandse holle wegen.
+    Pittige klimmen, adembenemende vergezichten, 75% off-road en autoluwe verbindingslusjes. Hellingen tot 16% en typische Hagelandse holle wegen.
 
-  subtitle: Overzicht van Routes voor "A.C. Hagelandse Off-Road Parels" zondag 3 mei 2026
+  subtitle: "Overzicht van de MTB- en gravelroutes"
   mtb:
-    title: "MTB / GRAVEL Routes"
+    title: "MTB-routes"
     extra: |
-      Alle parcours zijn geschikt voor zowel MTB als GRAVEL fietsen. Alles netjes bepijld!
-
-      **Dag verzekering: + €2**
+      De MTB-parcours worden met pijltjes bewegwijzerd. Een dagvergunning kost €2 extra.
     distances:
-      - title: "21 km Route"
-        description: |
-          Korte en toegankelijke route met 5 klimmen. Ideaal voor beginners of een ontspannen rit.
+      - title: "28 km Route"
+        description: "240 hoogtemeters en 5 hellingen. Voorinschrijving €6, ter plaatse €8."
         supply: 1
-        height: 200
+        height: 240
         hills: 5
-        price: 6
       - title: "40 km Route"
-        description: |
-          Middellange route met 7 klimmen. Perfecte uitdaging voor recreatieve fietsers.
+        description: "350 hoogtemeters en 11 hellingen. Voorinschrijving €6, ter plaatse €8."
         supply: 1
         height: 350
-        hills: 7
-        price: 6
-      - title: "60 km Route"
-        description: |
-          Langere route met 16 klimmen en 700 hoogtemeters. Voor de gevorderde fietser die van een uitdaging houdt.
-        supply: 2
-        height: 700
-        hills: 16
-        price: 8
+        hills: 11
+      - title: "50 km Route"
+        description: "450 hoogtemeters en 14 hellingen. Voorinschrijving €6, ter plaatse €8."
+        supply: 1
+        height: 450
+        hills: 14
+  gravel:
+    title: "Gravelroutes"
+    extra: "De gravelroutes zijn uitsluitend beschikbaar via GPX. Een dagvergunning kost €2 extra."
+    distances:
+      - title: "55 km Route"
+        description: "410 hoogtemeters en 10 hellingen. Voorinschrijving €8, ter plaatse €10."
+        supply: 1
+        height: 410
+        hills: 10
       - title: "75 km Route"
-        description: |
-          De langste route met 21 klimmen en 800 hoogtemeters. Voor ervaren fietsers die de ultieme uitdaging zoeken.
+        description: "480 hoogtemeters en 12 hellingen. Voorinschrijving €10, ter plaatse €12."
         supply: 2
-        height: 800
-        hills: 21
-        price: 8
-  price: "Prijs"
+        height: 480
+        hills: 12
   supply: "Bevoorrading"
   height: "Hoogtemeters"
   hills: "Klimmen"
 
-information:
-  title: "Informatie"
-  items:
-    - title: "Inschrijving"
-      description: "Wil je deelnemen aan de A.C. Hagelandse Off-Road Parels? Kom dan op zondag 3 mei 2026 naar Feestzaal Bergendal in Kortenaken (Waanrode). **Inschrijving tussen 8h00 en 10h30 ter plaatse** aan democratische prijzen: **6 euro** (21km/40km) of **8 euro** (60km/75km). Zonder vergunning betaal je **2 euro extra voor een dag verzekering.** **GRATIS deelname** voor kids geboren in 2010 en later + een geschenkje."
-    - title: "Bevoorrading(en)"
-      description: "Op bevoorradingen is er een **ruim aanbod** drank (water en energydrank) en voeding (bananen, suikerwafels, appelsienen, peperkoek). Help de afvalberg verminderen en sorteer het achtergelaten vuil in de voorziene vuilbakken. Om ecologische redenen is het ook aangeraden om je **drinkfles te her vullen** en daarom zal het gebruik van drinkbekers beperkt zijn!"
-    - title: "Bij finish - Douches"
-      description: "Er is gelegenheid tot het nemen van een douche met aparte **kleedruimtes voor dames en heren** in de aanpalende Sporthal De Vreun. Voor je comfort voorzien we ook een **bewaakte fietsenparking**. Een **afspuitstand** om je fiets ook een douche te geven zal eveneens aanwezig zijn."
-    - title: "Vrouwvriendelijke organisatie"
-      description: "Wetende dat er op elke tocht meer en meer vrouwen aanwezig zijn zullen we ervoor zorgen dat op elke bevoorradingspost **een toilet** aanwezig is. Vanzelfsprekend doen we ook een oproep aan alle mannelijke deelnemers om hiervan gebruik te maken."
-    - title: "Technische bijstand"
-      description: "**Op bevoorradingen** zal een beperkte technische bijstand aangeboden worden. Op het polsbandje zal een **noodnummer** aangebracht worden waar -in uiterste nood- contact kan mee worden genomen. Een lekke band kan iedereen wel zelf herstellen…."
-    - title: "Gezelligheid"
-      description: "Na de rit kun je ontspannen en napraten met andere deelnemers onder het genot van **heerlijke Foods & Drinks**."
-    - title: "GEDRAGSCODE"
-      description: |
-        Gebruikers van MTB en GRAVELfietsen 
-        -respecteren mens, dier en natuur. 
-        -zijn steeds hoffelijk. 
-        -laten geen vuil achter. 
-        -respecteren de verkeersregels.
-
 club:
   title: "Sportclub Fit & Move Kortenaken."
-  description: "Leden van de club kunnen volgende sportbedrijvigheden beoefenen op recreatieve basis: fietsen en alle voorbereidende sporten zoals zwemmen, joggen, turnen, fitness. Maar de hoofdactiviteit is en blijft het off-road fietsen. De club is erkend als sportclub door de gemeente Kortenaken en door de provincie Vlaams-Brabant. Na drie succesvolle edities zullen we al het mogelijke doen om jullie optimaal te laten genieten van het mooie Hageland en de uitlopers richting Haspengouw."
+  description: "Leden van de club kunnen volgende sportbedrijvigheden beoefenen op recreatieve basis: fietsen en alle voorbereidende sporten zoals zwemmen, joggen, turnen, fitness. Maar de hoofdactiviteit is en blijft het off-road fietsen. De club is erkend als sportclub door de gemeente Kortenaken en door de provincie Vlaams-Brabant. Na vier succesvolle edities zullen we al het mogelijke doen om jullie optimaal te laten genieten van het mooie Hageland en de uitlopers richting Haspengouw."
   btn: "Contact"
 
 contact:

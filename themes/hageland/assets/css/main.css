@@ -10,6 +10,42 @@ body {
   letter-spacing: 0.0625em;
 }
 
+.edition-content h2 {
+  @apply mb-4 mt-10 text-2xl font-bold text-gray-900;
+}
+
+.edition-content p {
+  @apply mb-4 leading-7;
+}
+
+.edition-content ul {
+  @apply mb-6 list-disc pl-6;
+}
+
+.edition-content li {
+  @apply mb-2;
+}
+
+.edition-content a {
+  @apply font-semibold text-base-color underline;
+}
+
+.edition-content table {
+  min-width: 46rem;
+  width: 100%;
+  border-collapse: collapse;
+  @apply mb-8 text-left text-sm;
+}
+
+.edition-content th,
+.edition-content td {
+  @apply border border-gray-300 px-3 py-2 align-top;
+}
+
+.edition-content th {
+  @apply bg-gray-100 font-bold text-gray-900;
+}
+
 p ~ p {
   margin-top: 2em;
 }
@@ -214,6 +250,10 @@ h1 {
       font-size: 22px;
     }
   }
+}
+
+body:not(#page-top) #mainNav {
+  background-color: theme("colors.nav-color");
 }
 
 .btn {
