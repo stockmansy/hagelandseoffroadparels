@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl-BE" class="overflow-x-hidden">
   {{- partial "head.html" . -}}
   <body id="page-top" class="overflow-x-hidden">
@@ -46,7 +46,9 @@
           <div class="absolute left-4 top-4 z-20 max-w-xs bg-white p-4 text-left shadow">
             <p class="font-bold">Feestzaal Bergendal</p>
             <p class="mt-1 text-sm">Grote Vreunte 57, 3473 Kortenaken (Waanrode)</p>
-            <a href="https://www.openstreetmap.org/?mlat=50.9145971&amp;mlon=5.0035991#map=18/50.9145971/5.0035991" target="_blank" rel="noopener noreferrer">Open kaart op OpenStreetMap</a>
+            <a href="https://www.openstreetmap.org/?mlat=50.9145971&amp;mlon=5.0035991#map=18/50.9145971/5.0035991" target="_blank" rel="noopener noreferrer"
+              >Open kaart op OpenStreetMap</a
+            >
           </div>
           <iframe
             src="https://www.openstreetmap.org/export/embed.html?bbox=5.0003%2C50.9124%2C5.0069%2C50.9168&layer=mapnik&marker=50.9145971%2C5.0035991"
@@ -64,7 +66,9 @@
             <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">{{ .register.title }}</h2>
             <div>{{ $.Page.RenderString .register.description }}</div>
             <p class="mt-4">
-              <a href="https://www.openstreetmap.org/?mlat=50.9145971&amp;mlon=5.0035991#map=18/50.9145971/5.0035991" target="_blank" rel="noopener noreferrer">Kaart openen in OpenStreetMap</a>
+              <a href="https://www.openstreetmap.org/?mlat=50.9145971&amp;mlon=5.0035991#map=18/50.9145971/5.0035991" target="_blank" rel="noopener noreferrer"
+                >Kaart openen in OpenStreetMap</a
+              >
               <span aria-hidden="true"> | </span>
               <a href="https://www.google.com/maps/dir/?api=1&amp;destination=50.9145971%2C5.0035991" target="_blank" rel="noopener noreferrer">Route plannen in Google Maps</a>
             </p>
@@ -82,17 +86,13 @@
             <div>{{ $.Page.RenderString .register.descriptionprice }}</div>
             {{ with .contacttitle }}
             <h3 class="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">{{ . }}</h3>
-            {{ end }}
-            {{ with .contactgravel }}
+            {{ end }} {{ with .contactgravel }}
             <p class="mt-4">{{ $.Page.RenderString . }}</p>
-            {{ end }}
-            {{ with .contactcyclotochten }}
+            {{ end }} {{ with .contactcyclotochten }}
             <p class="mt-4">{{ $.Page.RenderString . }}</p>
-            {{ end }}
-            {{ with .sitego4cyclingtitle }}
+            {{ end }} {{ with .sitego4cyclingtitle }}
             <h3 class="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">{{ . }}</h3>
-            {{ end }}
-            {{ with .sitego4cycling }}
+            {{ end }} {{ with .sitego4cycling }}
             <p class="mt-4">{{ $.Page.RenderString . }}</p>
             {{ end }}
           </div>
